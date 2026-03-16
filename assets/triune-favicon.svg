@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <!-- Semantic layer gradient: indigo -->
+    <linearGradient id="gSem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+    <!-- Episodic layer gradient: violet -->
+    <linearGradient id="gEpi" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <!-- Procedural layer gradient: emerald -->
+    <linearGradient id="gPro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background: white pill -->
+  <rect x="2" y="2" width="60" height="60" rx="14" ry="14"
+        fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <!-- ── Three cognitive layers (stacked horizontal bars) ── -->
+
+  <!-- Layer 1: Semantic / Neocortex — indigo, top -->
+  <rect x="10" y="10" width="44" height="12" rx="4" fill="url(#gSem)"/>
+
+  <!-- Layer 2: Episodic / Limbic — violet, middle -->
+  <rect x="10" y="26" width="44" height="12" rx="4" fill="url(#gEpi)"/>
+
+  <!-- Layer 3: Procedural / Basal Ganglia — emerald, bottom -->
+  <rect x="10" y="42" width="44" height="12" rx="4" fill="url(#gPro)"/>
+
+  <!-- ── Downward arrows connecting layers — C→S direction ── -->
+  <!-- Arrow 1: Semantic → Episodic -->
+  <line x1="32" y1="22" x2="32" y2="25.5" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round"/>
+  <polyline points="29.5,24 32,26.5 34.5,24" stroke="#cbd5e1" stroke-width="1.8"
+            stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Arrow 2: Episodic → Procedural -->
+  <line x1="32" y1="38" x2="32" y2="41.5" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round"/>
+  <polyline points="29.5,40 32,42.5 34.5,40" stroke="#cbd5e1" stroke-width="1.8"
+            stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+</svg>

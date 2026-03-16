@@ -1,0 +1,168 @@
+<!--
+  Multi-Frequency Integration Diagram
+  ─────────────────────────────────────
+  Shows the three parallel cognitive layers operating simultaneously
+  at different frequencies — the core engineering contribution of C→S.
+
+  Visual: three oscillating waveforms (like neural LFP recordings)
+    Row 1 SEMANTIC   ~1 Hz  — one full sine cycle (very slow, deliberate)
+    Row 2 EPISODIC   ~10 Hz — four sine cycles (medium, memory gating)
+    Row 3 PROCEDURAL ~50 Hz — ten sine cycles (fast, automatic)
+
+  The frequency difference (1× / 10× / 50×) is the key architectural insight:
+  each layer operates at the timescale of its cognitive function.
+
+  Color system matches page palette:
+    Indigo  #6366f1 — Semantic
+    Violet  #8b5cf6 — Episodic
+    Emerald #10b981 — Procedural
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 252" fill="none"
+     font-family="'Noto Sans', 'Google Sans', -apple-system, sans-serif">
+
+  <!-- Background -->
+  <rect width="760" height="252" fill="#fafaf7" rx="14"/>
+
+  <!-- ══════════════════════════════════════════════════════
+       HORIZONTAL BAND BACKGROUNDS
+       ══════════════════════════════════════════════════════ -->
+  <!-- Semantic band (top) -->
+  <rect x="0"   y="0"   width="760" height="84"  rx="14" fill="#6366f1" opacity="0.06"/>
+  <rect x="0"   y="70"  width="760" height="14"  fill="#fafaf7"/>
+
+  <!-- Episodic band (middle) -->
+  <rect x="0"   y="84"  width="760" height="84"  fill="#8b5cf6" opacity="0.06"/>
+  <rect x="0"   y="154" width="760" height="14"  fill="#fafaf7"/>
+
+  <!-- Procedural band (bottom) -->
+  <rect x="0"   y="168" width="760" height="84"  rx="14" fill="#10b981" opacity="0.07"/>
+
+  <!-- ══════════════════════════════════════════════════════
+       BAND DIVIDERS
+       ══════════════════════════════════════════════════════ -->
+  <line x1="148" y1="84"  x2="620" y2="84"
+        stroke="#ddd8d0" stroke-width="1" stroke-dasharray="5 4"/>
+  <line x1="148" y1="168" x2="620" y2="168"
+        stroke="#ddd8d0" stroke-width="1" stroke-dasharray="5 4"/>
+
+  <!-- ══════════════════════════════════════════════════════
+       LEFT LABELS
+       ══════════════════════════════════════════════════════ -->
+  <!-- Semantic -->
+  <text x="12"  y="30"  font-size="11" font-weight="700" fill="#4338ca">SEMANTIC</text>
+  <text x="12"  y="45"  font-size="9"  fill="#64748b">Neocortex</text>
+  <rect  x="12" y="52"  width="44" height="18" rx="9" fill="#6366f1" opacity="0.15"/>
+  <text x="34"  y="65"  text-anchor="middle" font-size="9" font-weight="700" fill="#4338ca">~1 Hz</text>
+
+  <!-- Episodic -->
+  <text x="12"  y="114" font-size="11" font-weight="700" fill="#6d28d9">EPISODIC</text>
+  <text x="12"  y="129" font-size="9"  fill="#64748b">Limbic Sys.</text>
+  <rect  x="12" y="136" width="52" height="18" rx="9" fill="#8b5cf6" opacity="0.15"/>
+  <text x="38"  y="149" text-anchor="middle" font-size="9" font-weight="700" fill="#6d28d9">~10 Hz</text>
+
+  <!-- Procedural -->
+  <text x="12"  y="198" font-size="11" font-weight="700" fill="#065f46">PROCEDURAL</text>
+  <text x="12"  y="213" font-size="9"  fill="#64748b">Basal Ganglia</text>
+  <rect  x="12" y="220" width="52" height="18" rx="9" fill="#10b981" opacity="0.15"/>
+  <text x="38"  y="233" text-anchor="middle" font-size="9" font-weight="700" fill="#065f46">~50 Hz</text>
+
+  <!-- Vertical divider: labels | waveforms -->
+  <line x1="148" y1="4" x2="148" y2="248" stroke="#e8e5df" stroke-width="1"/>
+
+  <!-- ══════════════════════════════════════════════════════
+       WAVEFORMS
+       center x = 148 to 620 (span = 472px)
+       ══════════════════════════════════════════════════════ -->
+
+  <!-- ── SEMANTIC: 1 cycle (slow deliberation) — center y=42, amplitude=28 ── -->
+  <!-- One full sine wave: M 148 42 → up to y=14 → back to 42 → down to 70 → 42 -->
+  <path d="M 148 42 Q 266 14 384 42 Q 502 70 620 42"
+        stroke="#6366f1" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+
+  <!-- ── EPISODIC: 4 cycles (memory gating) — center y=126, amplitude=22 ── -->
+  <!-- 4 cycles over 472px → each cycle = 118px → quarter = 29.5px -->
+  <path d="M 148 126
+           Q 177.5 104 207 126  Q 236.5 148 266 126
+           Q 295.5 104 325 126  Q 354.5 148 384 126
+           Q 413.5 104 443 126  Q 472.5 148 502 126
+           Q 531.5 104 561 126  Q 590.5 148 620 126"
+        stroke="#8b5cf6" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+
+  <!-- ── PROCEDURAL: 10 cycles (fast reflex) — center y=210, amplitude=16 ── -->
+  <!-- 10 cycles over 472px → each cycle = 47.2px → quarter = 11.8px -->
+  <path d="M 148 210
+           Q 159.8 194 171.6 210  Q 183.4 226 195.2 210
+           Q 207   194 218.8 210  Q 230.6 226 242.4 210
+           Q 254.2 194 266   210  Q 277.8 226 289.6 210
+           Q 301.4 194 313.2 210  Q 325   226 336.8 210
+           Q 348.6 194 360.4 210  Q 372.2 226 384   210
+           Q 395.8 194 407.6 210  Q 419.4 226 431.2 210
+           Q 443   194 454.8 210  Q 466.6 226 478.4 210
+           Q 490.2 194 502   210  Q 513.8 226 525.6 210
+           Q 537.4 194 549.2 210  Q 561   226 572.8 210
+           Q 584.6 194 596.4 210  Q 608.2 226 620   210"
+        stroke="#10b981" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+
+  <!-- ══════════════════════════════════════════════════════
+       TIME AXIS
+       ══════════════════════════════════════════════════════ -->
+  <line x1="148" y1="246" x2="622" y2="246" stroke="#cbd5e1" stroke-width="1"/>
+  <polyline points="618,242 623,246 618,250" stroke="#cbd5e1" stroke-width="1"
+            stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <text x="622" y="249" font-size="8" fill="#94a3b8">time</text>
+
+  <!-- Tick marks (at waveform boundaries) -->
+  <line x1="384" y1="243" x2="384" y2="249" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="384" y="252" text-anchor="middle" font-size="7.5" fill="#94a3b8">T/2</text>
+  <line x1="148" y1="243" x2="148" y2="249" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="148" y="252" text-anchor="middle" font-size="7.5" fill="#94a3b8">0</text>
+  <line x1="620" y1="243" x2="620" y2="249" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="620" y="252" text-anchor="middle" font-size="7.5" fill="#94a3b8">T</text>
+
+  <!-- ══════════════════════════════════════════════════════
+       RIGHT LABELS
+       ══════════════════════════════════════════════════════ -->
+  <!-- Vertical divider: waveforms | labels -->
+  <line x1="620" y1="4" x2="620" y2="248" stroke="#e8e5df" stroke-width="1"/>
+
+  <!-- Semantic -->
+  <text x="632"  y="33"  font-size="9" fill="#334155">Qwen2-VL-7B</text>
+  <text x="632"  y="46"  font-size="8" fill="#94a3b8">(4-bit AWQ)</text>
+  <text x="632"  y="59"  font-size="8" fill="#94a3b8">8.34 s/step</text>
+  <text x="632"  y="72"  font-size="8" font-style="italic" fill="#6366f1">conscious</text>
+
+  <!-- Episodic -->
+  <text x="632"  y="112" font-size="9" fill="#334155">FAISS HNSW</text>
+  <text x="632"  y="125" font-size="8" fill="#94a3b8">+ MiniLM-L6</text>
+  <text x="632"  y="138" font-size="8" fill="#94a3b8">&lt;10 ms query</text>
+  <text x="632"  y="151" font-size="8" font-style="italic" fill="#8b5cf6">memory gate</text>
+
+  <!-- Procedural -->
+  <text x="632"  y="197" font-size="9" fill="#334155">Diffusion Policy</text>
+  <text x="632"  y="210" font-size="8" fill="#94a3b8">GR00T N1</text>
+  <text x="632"  y="223" font-size="8" fill="#94a3b8">2.18 s/step</text>
+  <text x="632"  y="236" font-size="8" font-style="italic" fill="#10b981">subconscious</text>
+
+  <!-- Information flow arrows (right edge, between rows) -->
+  <!-- Semantic → Episodic -->
+  <line x1="746" y1="66" x2="746" y2="80" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="3 2"/>
+  <polyline points="743,78 746,83 749,78" stroke="#94a3b8" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Episodic → Procedural -->
+  <line x1="746" y1="150" x2="746" y2="164" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="3 2"/>
+  <polyline points="743,162 746,167 749,162" stroke="#94a3b8" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Novelty gate label -->
+  <text x="700" y="86" text-anchor="middle" font-size="7.5" fill="#6366f1"
+        font-style="italic">θ = 0.7</text>
+  <text x="700" y="170" text-anchor="middle" font-size="7.5" fill="#10b981"
+        font-style="italic">50 Hz</text>
+
+  <!-- ══════════════════════════════════════════════════════
+       OUTER BORDER
+       ══════════════════════════════════════════════════════ -->
+  <rect x="0.75" y="0.75" width="758.5" height="250.5" rx="13.5"
+        stroke="#ddd8d0" stroke-width="1.5" fill="none"/>
+
+</svg>

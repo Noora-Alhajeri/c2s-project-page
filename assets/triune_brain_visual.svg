@@ -1,0 +1,181 @@
+<!--
+  Triune Architecture Theory Mapping
+  ─────────────────────────────────────
+  Visual representation of MacLean's Triune Brain (triune_brain_3in1.pdf)
+  mapped to our C→S robot architecture and Kahneman's Dual Process Theory.
+
+  Three columns (MacLean | Our C→S System | Kahneman) × Three rows (layers)
+  Each cell is colour-coded by its layer:
+    Indigo  #6366f1 = Neocortex / Semantic / System 2
+    Violet  #8b5cf6 = Limbic    / Episodic / (memory gate)
+    Emerald #10b981 = Basal Ganglia / Procedural / System 1
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" fill="none"
+     font-family="'Noto Sans', 'Google Sans', -apple-system, sans-serif">
+
+  <!-- ── Background ── -->
+  <rect width="760" height="300" fill="#fafaf7" rx="14"/>
+
+  <!-- ══════════════════════════════════════════════════════
+       COLUMN HEADERS
+       ══════════════════════════════════════════════════════ -->
+  <!-- MacLean header -->
+  <rect x="16" y="14" width="206" height="30" rx="6" fill="#1e293b" opacity="0.06"/>
+  <text x="119" y="34" text-anchor="middle" font-size="11" font-weight="700"
+        fill="#0f172a" letter-spacing="0.06em">MacLean (1954)</text>
+
+  <!-- Arrow: MacLean → Our System -->
+  <line x1="228" y1="29" x2="256" y2="29" stroke="#94a3b8" stroke-width="1.5"/>
+  <polyline points="252,25 257,29 252,33" stroke="#94a3b8" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Our System header -->
+  <rect x="262" y="14" width="236" height="30" rx="6" fill="#6366f1" opacity="0.12"/>
+  <text x="380" y="34" text-anchor="middle" font-size="11" font-weight="700"
+        fill="#4338ca" letter-spacing="0.04em">C→S Architecture</text>
+
+  <!-- Arrow: Our System → Kahneman -->
+  <line x1="504" y1="29" x2="532" y2="29" stroke="#94a3b8" stroke-width="1.5"/>
+  <polyline points="528,25 533,29 528,33" stroke="#94a3b8" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Kahneman header -->
+  <rect x="538" y="14" width="206" height="30" rx="6" fill="#1e293b" opacity="0.06"/>
+  <text x="641" y="34" text-anchor="middle" font-size="11" font-weight="700"
+        fill="#0f172a" letter-spacing="0.06em">Kahneman (2011)</text>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       ROW 1 — SEMANTIC / NEOCORTEX / SYSTEM 2
+       ══════════════════════════════════════════════════════ -->
+
+  <!-- MacLean: Neomammalian brain -->
+  <rect x="16" y="56" width="206" height="68" rx="10" fill="#6366f1" opacity="0.08"/>
+  <rect x="16" y="56" width="4" height="68" rx="2" fill="#6366f1"/>
+  <text x="30" y="75" font-size="10" font-weight="700" fill="#4338ca">NEOMAMMALIAN BRAIN</text>
+  <text x="30" y="90" font-size="9" fill="#334155">Neocortex</text>
+  <text x="30" y="105" font-size="8.5" fill="#64748b">Cognition · Language</text>
+  <text x="30" y="118" font-size="8.5" fill="#64748b">Abstract concepts</text>
+
+  <!-- Connector arrow: MacLean → Our System (Row 1) -->
+  <line x1="226" y1="90" x2="256" y2="90" stroke="#6366f1" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polyline points="252,86 257,90 252,94" stroke="#6366f1" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Our System: Semantic layer -->
+  <rect x="262" y="56" width="236" height="68" rx="10" fill="#6366f1" opacity="0.10"/>
+  <rect x="262" y="56" width="4" height="68" rx="2" fill="#6366f1"/>
+  <text x="276" y="75" font-size="10" font-weight="700" fill="#4338ca">SEMANTIC LAYER</text>
+  <text x="276" y="89" font-size="8.5" fill="#334155">Qwen2-VL-7B-Instruct (4-bit AWQ)</text>
+  <text x="276" y="102" font-size="8" fill="#64748b">Chain-of-thought · Scene graph</text>
+  <text x="276" y="115" font-size="8" fill="#64748b">Symbolic planning · ~1 Hz</text>
+  <!-- Frequency badge -->
+  <rect x="432" y="58" width="58" height="20" rx="10" fill="#6366f1" opacity="0.15"/>
+  <text x="461" y="72" text-anchor="middle" font-size="9" font-weight="700" fill="#4338ca">~1 Hz</text>
+
+  <!-- Connector arrow: Our System → Kahneman (Row 1) -->
+  <line x1="502" y1="90" x2="532" y2="90" stroke="#6366f1" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polyline points="528,86 533,90 528,94" stroke="#6366f1" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Kahneman: System 2 -->
+  <rect x="538" y="56" width="206" height="68" rx="10" fill="#6366f1" opacity="0.08"/>
+  <rect x="538" y="56" width="4" height="68" rx="2" fill="#6366f1"/>
+  <text x="552" y="75" font-size="10" font-weight="700" fill="#4338ca">SYSTEM 2</text>
+  <text x="552" y="90" font-size="9" fill="#334155">Slow · Deliberate · Effortful</text>
+  <text x="552" y="105" font-size="8.5" fill="#64748b">Reasoning is conscious</text>
+  <text x="552" y="118" font-size="8.5" fill="#64748b">Activated for novel tasks</text>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       ROW 2 — EPISODIC / LIMBIC / (GATE)
+       ══════════════════════════════════════════════════════ -->
+  <!-- Row divider (dashed) -->
+  <line x1="16" y1="134" x2="744" y2="134" stroke="#e8e5df" stroke-width="1" stroke-dasharray="5 4"/>
+
+  <!-- MacLean: Paleomammalian brain -->
+  <rect x="16" y="144" width="206" height="68" rx="10" fill="#8b5cf6" opacity="0.08"/>
+  <rect x="16" y="144" width="4" height="68" rx="2" fill="#8b5cf6"/>
+  <text x="30" y="163" font-size="10" font-weight="700" fill="#6d28d9">PALEOMAMMALIAN</text>
+  <text x="30" y="178" font-size="9" fill="#334155">Limbic System</text>
+  <text x="30" y="193" font-size="8.5" fill="#64748b">Emotion · Behaviour</text>
+  <text x="30" y="206" font-size="8.5" fill="#64748b">Memory formation</text>
+
+  <!-- Connector -->
+  <line x1="226" y1="178" x2="256" y2="178" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polyline points="252,174 257,178 252,182" stroke="#8b5cf6" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Our System: Episodic layer -->
+  <rect x="262" y="144" width="236" height="68" rx="10" fill="#8b5cf6" opacity="0.10"/>
+  <rect x="262" y="144" width="4" height="68" rx="2" fill="#8b5cf6"/>
+  <text x="276" y="163" font-size="10" font-weight="700" fill="#6d28d9">EPISODIC LAYER</text>
+  <text x="276" y="177" font-size="8.5" fill="#334155">FAISS HNSW + all-MiniLM-L6-v2</text>
+  <text x="276" y="190" font-size="8" fill="#64748b">Novelty N = 1 − max(sim) · θ=0.7</text>
+  <text x="276" y="203" font-size="8" fill="#64748b">Experience retrieval · ~10 Hz</text>
+  <!-- Frequency badge -->
+  <rect x="428" y="146" width="62" height="20" rx="10" fill="#8b5cf6" opacity="0.15"/>
+  <text x="459" y="160" text-anchor="middle" font-size="9" font-weight="700" fill="#6d28d9">~10 Hz</text>
+
+  <!-- Connector -->
+  <line x1="502" y1="178" x2="532" y2="178" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polyline points="528,174 533,178 528,182" stroke="#8b5cf6" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Kahneman: Gate -->
+  <rect x="538" y="144" width="206" height="68" rx="10" fill="#8b5cf6" opacity="0.08"/>
+  <rect x="538" y="144" width="4" height="68" rx="2" fill="#8b5cf6"/>
+  <text x="552" y="163" font-size="10" font-weight="700" fill="#6d28d9">NOVELTY GATE</text>
+  <text x="552" y="178" font-size="9" fill="#334155">Familiarity detection</text>
+  <text x="552" y="193" font-size="8.5" fill="#64748b">Routes novel → System 2</text>
+  <text x="552" y="206" font-size="8.5" fill="#64748b">Routes familiar → System 1</text>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       ROW 3 — PROCEDURAL / BASAL GANGLIA / SYSTEM 1
+       ══════════════════════════════════════════════════════ -->
+  <!-- Row divider (dashed) -->
+  <line x1="16" y1="222" x2="744" y2="222" stroke="#e8e5df" stroke-width="1" stroke-dasharray="5 4"/>
+
+  <!-- MacLean: Protoreptilian brain -->
+  <rect x="16" y="232" width="206" height="56" rx="10" fill="#10b981" opacity="0.09"/>
+  <rect x="16" y="232" width="4" height="56" rx="2" fill="#10b981"/>
+  <text x="30" y="250" font-size="10" font-weight="700" fill="#065f46">PROTOREPTILIAN</text>
+  <text x="30" y="265" font-size="9" fill="#334155">Brain Stem · Basal Ganglia</text>
+  <text x="30" y="279" font-size="8.5" fill="#64748b">Primitive learning · Reflex</text>
+
+  <!-- Connector -->
+  <line x1="226" y1="260" x2="256" y2="260" stroke="#10b981" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polyline points="252,256 257,260 252,264" stroke="#10b981" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Our System: Procedural layer -->
+  <rect x="262" y="232" width="236" height="56" rx="10" fill="#10b981" opacity="0.09"/>
+  <rect x="262" y="232" width="4" height="56" rx="2" fill="#10b981"/>
+  <text x="276" y="250" font-size="10" font-weight="700" fill="#065f46">PROCEDURAL LAYER</text>
+  <text x="276" y="264" font-size="8.5" fill="#334155">Diffusion Policy · Unitree G1 (29-DOF)</text>
+  <text x="276" y="278" font-size="8" fill="#64748b">20-step action chunks · ~50 Hz</text>
+  <!-- Frequency badge -->
+  <rect x="428" y="234" width="62" height="20" rx="10" fill="#10b981" opacity="0.15"/>
+  <text x="459" y="248" text-anchor="middle" font-size="9" font-weight="700" fill="#065f46">~50 Hz</text>
+
+  <!-- Connector -->
+  <line x1="502" y1="260" x2="532" y2="260" stroke="#10b981" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polyline points="528,256 533,260 528,264" stroke="#10b981" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Kahneman: System 1 -->
+  <rect x="538" y="232" width="206" height="56" rx="10" fill="#10b981" opacity="0.09"/>
+  <rect x="538" y="232" width="4" height="56" rx="2" fill="#10b981"/>
+  <text x="552" y="250" font-size="10" font-weight="700" fill="#065f46">SYSTEM 1</text>
+  <text x="552" y="265" font-size="9" fill="#334155">Fast · Automatic · Effortless</text>
+  <text x="552" y="279" font-size="8.5" fill="#64748b">Habit · Expert execution</text>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       OUTER BORDER
+       ══════════════════════════════════════════════════════ -->
+  <rect x="0.75" y="0.75" width="758.5" height="298.5" rx="13.5"
+        stroke="#ddd8d0" stroke-width="1.5" fill="none"/>
+
+</svg>

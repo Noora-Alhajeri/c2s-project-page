@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="180" viewBox="0 0 760 180" role="img" aria-labelledby="title desc">
+  <title id="title">MBZUAI wordmark</title>
+  <desc id="desc">Simplified MBZUAI affiliation wordmark for the project page</desc>
+  <rect width="760" height="180" rx="28" fill="#ffffff"/>
+  <rect x="20" y="20" width="720" height="140" rx="22" fill="#f1f5fb" stroke="#d7e0ec"/>
+  <circle cx="104" cy="90" r="38" fill="#173f7a"/>
+  <path d="M88 71h11l11 18 11-18h11v38h-10V88l-12 18h-1L98 88v21H88z" fill="#ffffff"/>
+  <text x="170" y="84" font-family="Source Sans 3, Arial, sans-serif" font-size="42" font-weight="700" fill="#102b53" letter-spacing="4">MBZUAI</text>
+  <text x="170" y="118" font-family="Source Sans 3, Arial, sans-serif" font-size="18" font-weight="600" fill="#526070">Mohamed bin Zayed University of Artificial Intelligence</text>
+</svg>

@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="60%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Subtle dot grid -->
+  <pattern id="dots" width="40" height="40" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="white" opacity="0.06"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#dots)"/>
+
+  <!-- Accent bar top -->
+  <rect x="0" y="0" width="1200" height="4" fill="url(#accent)"/>
+  <!-- Accent bar bottom -->
+  <rect x="0" y="626" width="1200" height="4" fill="url(#accent)"/>
+
+  <!-- ── Left: Triune Logo ── -->
+  <!-- Semantic node (top) -->
+  <circle cx="150" cy="185" r="36" fill="#6366f1" opacity="0.9"/>
+  <circle cx="150" cy="185" r="13" fill="#c7d2fe" opacity="0.55"/>
+
+  <!-- Edges: Semantic → Episodic -->
+  <line x1="128" y1="216" x2="98"  y2="272" stroke="#818cf8" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  <line x1="172" y1="216" x2="202" y2="272" stroke="#818cf8" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Episodic nodes (middle) -->
+  <circle cx="88"  cy="294" r="26" fill="#8b5cf6" opacity="0.9"/>
+  <circle cx="212" cy="294" r="26" fill="#8b5cf6" opacity="0.9"/>
+  <!-- episodic bridge -->
+  <line x1="114" y1="294" x2="186" y2="294" stroke="#a78bfa" stroke-width="2" stroke-dasharray="5,3.5" opacity="0.4"/>
+
+  <!-- Edges: Episodic → Procedural -->
+  <line x1="100" y1="318" x2="124" y2="368" stroke="#34d399" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <line x1="200" y1="318" x2="176" y2="368" stroke="#34d399" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Procedural node (bottom) -->
+  <circle cx="150" cy="392" r="36" fill="url(#green)" opacity="0.95"/>
+  <!-- Speed lines -->
+  <line x1="28"  y1="392" x2="107" y2="392" stroke="#34d399" stroke-width="2.5" stroke-linecap="round" opacity="0.4"/>
+  <line x1="193" y1="392" x2="272" y2="392" stroke="#34d399" stroke-width="2.5" stroke-linecap="round" opacity="0.4"/>
+  <line x1="38"  y1="406" x2="107" y2="398" stroke="#34d399" stroke-width="1.5" stroke-linecap="round" opacity="0.25"/>
+  <line x1="193" y1="398" x2="262" y2="406" stroke="#34d399" stroke-width="1.5" stroke-linecap="round" opacity="0.25"/>
+
+  <!-- Layer labels -->
+  <text x="204" y="192" font-family="Inter, sans-serif" font-size="12" font-weight="700"
+        fill="#818cf8" letter-spacing="2">SEMANTIC · ~1 Hz</text>
+  <text x="204" y="299" font-family="Inter, sans-serif" font-size="12" font-weight="700"
+        fill="#a78bfa" letter-spacing="2">EPISODIC · RAG</text>
+  <text x="204" y="399" font-family="Inter, sans-serif" font-size="12" font-weight="700"
+        fill="#34d399" letter-spacing="2">PROCEDURAL · ~50 Hz</text>
+
+  <!-- Vertical divider -->
+  <line x1="310" y1="60" x2="310" y2="570" stroke="white" stroke-width="0.5" opacity="0.08"/>
+
+  <!-- ── Right: Text ── -->
+
+  <!-- Venue badge -->
+  <rect x="350" y="68" width="388" height="34" rx="17" fill="none" stroke="#6366f1" stroke-width="1.5" opacity="0.55"/>
+  <text x="544" y="90" font-family="Inter, sans-serif" font-size="12" font-weight="700"
+        fill="#818cf8" text-anchor="middle" letter-spacing="2">TARGET: ICRA · CoRL · NeurIPS 2026</text>
+
+  <!-- Paper title -->
+  <text x="350" y="162" font-family="Inter, sans-serif" font-size="48" font-weight="800"
+        fill="#f1f5f9">Transform Robot Actions</text>
+  <text x="350" y="218" font-family="Inter, sans-serif" font-size="48" font-weight="800"
+        fill="#f1f5f9">from Conscious to</text>
+  <text x="350" y="278" font-family="Inter, sans-serif" font-size="52" font-weight="800"
+        fill="url(#accent)">Subconscious</text>
+
+  <!-- Tagline -->
+  <text x="350" y="322" font-family="Inter, sans-serif" font-size="17" font-weight="400"
+        fill="#94a3b8" font-style="italic">
+    A Brain-Inspired Triune Architecture for Humanoid Skill Transfer
+  </text>
+
+  <!-- Horizontal rule -->
+  <line x1="350" y1="350" x2="1150" y2="350" stroke="white" stroke-width="0.5" opacity="0.1"/>
+
+  <!-- Tech stack pills -->
+  <rect x="350" y="368" width="142" height="28" rx="14" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.2"/>
+  <text x="421" y="386" font-family="monospace" font-size="11" font-weight="700"
+        fill="#818cf8" text-anchor="middle">Qwen2-VL</text>
+
+  <rect x="504" y="368" width="148" height="28" rx="14" fill="#1e1b4b" stroke="#8b5cf6" stroke-width="1.2"/>
+  <text x="578" y="386" font-family="monospace" font-size="11" font-weight="700"
+        fill="#a78bfa" text-anchor="middle">FAISS + SBERT</text>
+
+  <rect x="664" y="368" width="165" height="28" rx="14" fill="#1e1b4b" stroke="#10b981" stroke-width="1.2"/>
+  <text x="746" y="386" font-family="monospace" font-size="11" font-weight="700"
+        fill="#34d399" text-anchor="middle">Diffusion Policy</text>
+
+  <rect x="841" y="368" width="118" height="28" rx="14" fill="#1e1b4b" stroke="#475569" stroke-width="1.2"/>
+  <text x="900" y="386" font-family="monospace" font-size="11" font-weight="700"
+        fill="#94a3b8" text-anchor="middle">Unitree G1</text>
+
+  <!-- Author / affiliation -->
+  <text x="350" y="448" font-family="Inter, sans-serif" font-size="15" font-weight="600"
+        fill="#e2e8f0">[Your Name]</text>
+  <text x="350" y="472" font-family="Inter, sans-serif" font-size="13"
+        fill="#64748b">Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), Abu Dhabi, UAE</text>
+
+  <!-- Kahneman / MacLean quotes strip -->
+  <text x="350" y="520" font-family="Inter, sans-serif" font-size="13" font-style="italic"
+        fill="#475569">
+    Inspired by Kahneman's dual-process theory · MacLean's triune brain model · Fitts &amp; Posner skill acquisition
+  </text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="132" viewBox="0 0 640 132" role="img" aria-labelledby="title desc">
+  <title id="title">C2S research lockup</title>
+  <desc id="desc">Research-grade logo lockup for conscious-to-subconscious skill transfer</desc>
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#174a91"/>
+      <stop offset="100%" stop-color="#123663"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#b53a49"/>
+      <stop offset="100%" stop-color="#8b2332"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="132" rx="24" fill="#ffffff"/>
+  <circle cx="68" cy="66" r="32" fill="url(#blue)"/>
+  <circle cx="142" cy="66" r="32" fill="url(#red)"/>
+  <path d="M91 66h30" stroke="#6b7d94" stroke-width="6" stroke-linecap="round"/>
+  <path d="M113 55l12 11-12 11" fill="none" stroke="#6b7d94" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="68" y="75" font-family="Google Sans, Inter, Arial, sans-serif" font-size="31" font-weight="800" text-anchor="middle" fill="#ffffff">C</text>
+  <text x="142" y="75" font-family="Google Sans, Inter, Arial, sans-serif" font-size="31" font-weight="800" text-anchor="middle" fill="#ffffff">S</text>
+  <text x="198" y="56" font-family="Google Sans, Inter, Arial, sans-serif" font-size="34" font-weight="800" fill="#17385f" letter-spacing="2">C2S</text>
+  <text x="198" y="86" font-family="Google Sans, Inter, Arial, sans-serif" font-size="18" font-weight="600" fill="#5a6877">Transform Robot Actions from Conscious to Subconscious</text>
+</svg>
