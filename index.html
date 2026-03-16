@@ -1,0 +1,311 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Transforming Robot Actions from Conscious to Subconscious</title>
+<meta name="description" content="MSc Thesis Â· MBZUAI Â· 2026 â€” Conscious-to-subconscious skill transfer in humanoid loco-manipulation via a triune semantic-episodic-procedural architecture."/>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- â•â• NAV â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<nav class="topnav">
+  <div class="nav-inner">
+    <!-- inline C2S favicon as nav brand -->
+    <a href="#top" class="nav-brand-link">
+      <svg width="28" height="28" viewBox="0 0 100 100" fill="none">
+        <circle cx="50" cy="50" r="47" fill="rgba(28,78,216,.12)" stroke="#1c4ed8" stroke-width="2"/>
+        <line x1="6" y1="50" x2="94" y2="50" stroke="#3b82f6" stroke-width="1.4" stroke-dasharray="5 3" opacity="0.8"/>
+        <path d="M50 10 L26 50 L74 50 Z" fill="#bfdbfe" stroke="#1e40af" stroke-width="1.8" stroke-linejoin="round"/>
+        <path d="M30 50 C28 55 27 70 28 82 C29 91 38 96 50 96 C62 96 71 91 72 82 C73 70 72 55 70 50 Z" fill="#dbeafe" stroke="#1e40af" stroke-width="1.8"/>
+        <circle cx="39" cy="66" r="5.5" fill="none" stroke="#1e40af" stroke-width="1.4"/>
+        <circle cx="39" cy="66" r="2" fill="#1e40af" opacity="0.35"/>
+        <circle cx="61" cy="66" r="6" fill="#1e40af"/>
+        <circle cx="61" cy="66" r="2.2" fill="#dbeafe"/>
+      </svg>
+      <span class="nav-wordmark">C2S</span>
+    </a>
+    <div class="nav-links">
+      <a href="#abstract">Abstract</a>
+      <a href="#highlights">Results</a>
+      <a href="#videos">Videos</a>
+    </div>
+  </div>
+</nav>
+
+<!-- â•â• HERO (dark) â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<header class="hero" id="top">
+  <div class="hero-bg"></div>
+  <div class="hero-inner">
+
+    <!-- MBZUAI logo â€” white version for dark hero -->
+    <div class="uni-row">
+  <a href="https://mbzuai.ac.ae" target="_blank" rel="noopener" class="uni-link">
+    <img class="mbzuai-logo" src="assets/mbzuai-official-original.png" alt="Mohamed bin Zayed University of Artificial Intelligence" />
+  </a>
+</div>
+
+    <!-- badge -->
+    <div class="venue-chip">M.Sc. Thesis &nbsp; 2024/2026</div>
+
+    <!-- title -->
+    <h1 class="hero-title">
+      Transforming Robot Actions<br>
+      <em>from Conscious to Subconscious</em>
+    </h1>
+
+    <!-- subtitle -->
+    <p class="hero-sub">
+      Deployment-time skill consolidation in humanoid loco-manipulation<br>
+      via a triune semanticâ€“episodicâ€“procedural control hierarchy.
+    </p>
+
+    <!-- author -->
+    <div class="author-block">
+      <span class="author">Noora Alhajeri<sup>1</sup></span>
+    </div>
+    <div class="affil-block">
+      <sup>1</sup>Mohamed bin Zayed University of Artificial Intelligence, Abu Dhabi, UAE<br>
+      <span class="supervisor">Supervised by Professor Yoshihiko Nakamura</span>
+    </div>
+
+  </div>
+</header>
+
+<!-- â•â• SYSTEM ARCHITECTURE (large, full-width) â•â•â•â•â•â•â•â•â•â•â• -->
+<section class="arch-section">
+  <div class="arch-gradient"></div>
+  <div class="container wide">
+    <p class="fig-label">Figure 1 &mdash; System Architecture</p>
+    <div class="arch-frame">
+      <img src="assets/fig_triune_system_overview_cropped.png"
+           alt="Triune architecture: semantic layer (1 Hz) â€” episodic memory (10 Hz) â€” procedural control (50 Hz) with novelty routing gate"/>
+    </div>
+    <p class="arch-caption">
+      <strong>Overall proposed system hierarchical architecture.</strong>
+      <strong>Semantic Layer</strong> (blue, 1 Hz): Qwen2.5-VL-Instruct-7B receives RGB frames and the language goal g, producing scene graph G_t, constrained plan P, verified 256-d subgoal embedding z_t, and a continuous supervisory monitor signal.
+      <strong>Episodic Layer</strong> (red, 10 Hz): a FAISS exact inner-product index computes novelty N_t and the hysteresis router selects among Conscious, Transitional, and Subconscious pathways.
+      <strong>Procedural Layer</strong> (green, 50 Hz): a 32-layer DiT denoises a 4-step action chunk tracked by a 500 Hz computed-torque controller.
+      Red dashed arrows denote the semantic interrupt path triggered by anomaly detection; green dashed arrows denote the subconscious bypass that removes VLM deliberation for familiar tasks.
+    </p>
+  </div>
+</section>
+
+<!-- â•â• ABSTRACT â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<section class="section" id="abstract">
+  <div class="container narrow">
+    <h2 class="section-title centered">Abstract</h2>
+    <p>
+      Humanoid robotics increasingly relies on vision-language-action systems to map
+      natural-language instructions and visual observations into embodied behavior.
+      However, many such systems remain deployment-inefficient because familiar tasks
+      continue to be executed as if they were novel. This thesis addresses that
+      perpetual-novice bottleneck in whole-body loco-manipulation by asking whether a
+      humanoid controller can transition from deliberate semantic control to faster
+      automatic execution during deployment without retraining the underlying motor
+      policy.
+    </p>
+    <p>
+      The proposed system is a triune-inspired routed architecture with three
+      concurrent layers: a semantic reasoning layer for planning and supervisory
+      monitoring, an episodic memory layer for familiarity estimation and pathway
+      routing, and a procedural control layer for high-frequency whole-body
+      execution. The architecture is implemented on a Unitree G1 humanoid in MuJoCo
+      and evaluated through repeated learning, forced-pathway separation,
+      regime-split ablations, transfer experiments, and internal telemetry analysis.
+    </p>
+    <p>
+      The results show that repeated experience changes how cognition is allocated
+      within the controller. On the anchor apple-to-plate benchmark, mean episode
+      duration drops from 440.47 s in the early learning window to 225.42 s in the
+      late window, yielding a 1.95x speed ratio while late-window success reaches
+      100%. Forced-pathway evaluation shows that deliberate execution requires
+      262.27 +/- 6.92 s whereas automatic execution requires 188.54 +/- 4.96 s,
+      demonstrating that the timing advantage arises from removing semantic planning
+      latency rather than from hidden policy adaptation. Regime-split ablations
+      further show that the integrated architecture is most useful under novelty and
+      familiar replay, while perturbation-heavy cases remain a current boundary.
+    </p>
+    <p>
+      The thesis contributes a routed multi-rate control architecture, a
+      novelty-driven mechanism for conscious-to-automatic transition, and an empirical
+      demonstration of deployment-time skill consolidation in humanoid
+      loco-manipulation. It also identifies two concrete limitations that define the
+      next engineering targets: fast perturbation recovery and geometry-aware
+      episodic transfer.
+    </p>
+  </div>
+</section>
+
+<!-- â•â• KEY RESULTS â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<section class="highlights-section" id="highlights">
+  <div class="container">
+    <h2 class="section-title centered">Key Results</h2>
+    <p class="section-sub centered">Four protocols Â· six hypotheses Â· all key claims confirmed</p>
+
+    <div class="hl-grid">
+
+      <div class="hl-card" style="--c:#1c4ed8">
+        <div class="hl-val">1.95Ã—</div>
+        <div class="hl-name">Deployment-time speedup</div>
+        <p class="hl-body">
+          Episode duration compressed 440 s â†’ 225 s over 40 linked executions.
+          Power-law exponent Î± = 0.390, inside the human motor-learning range [0.3, 0.5].
+          No policy retraining.
+        </p>
+        <div class="hl-hyp">H1 Â· Skill consolidation</div>
+      </div>
+
+      <div class="hl-card" style="--c:#6d28d9">
+        <div class="hl-val">73.7 s</div>
+        <div class="hl-name">Conscious vs. automatic gap</div>
+        <p class="hl-body">
+          Deliberate: 262.3 Â± 6.9 s. Automatic: 188.5 Â± 5.0 s.
+          Cohen's d = 12.24, p = 8Ã—10â»â´âµ (Welch t-test, N = 30 per condition).
+          Success rates statistically equivalent (p = 0.612).
+        </p>
+        <div class="hl-hyp">H2 Â· Pathway separation</div>
+      </div>
+
+      <div class="hl-card" style="--c:#15803d">
+        <div class="hl-val">100%</div>
+        <div class="hl-name">Late-window success</div>
+        <p class="hl-body">
+          Full system SR = 1.00 (novel), 0.9375 (familiar).
+          Policy-only baseline: 0.875 (novel), 0.6875 (familiar).
+          Episodic routing adds significant value beyond the raw frozen policy.
+        </p>
+        <div class="hl-hyp">H3 Â· Ablation</div>
+      </div>
+
+      <div class="hl-card" style="--c:#b45309">
+        <div class="hl-val">66.7%</div>
+        <div class="hl-name">One-shot transfer</div>
+        <p class="hl-body">
+          Cube-to-tray recovered 0% â†’ 66.7% after one support episode.
+          Novelty: 0.87 â†’ 0.60. Broad five-task stress test defines
+          the current representational boundary of the episodic router.
+        </p>
+        <div class="hl-hyp">H5 Â· Transfer</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- â•â• VIDEOS â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<section class="section" id="videos">
+  <div class="container">
+    <h2 class="section-title centered">Videos</h2>
+    <p class="section-sub centered">Executed rollouts &nbsp;Â·&nbsp; Unitree G1 &nbsp;Â·&nbsp; MuJoCo &nbsp;Â·&nbsp; confirmatory evaluation</p>
+
+    <div class="video-grid">
+
+      <article class="video-card">
+        <div class="video-wrap">
+          <video controls preload="metadata" playsinline>
+            <source src="assets/videos/novel_anchor.mp4" type="video/mp4"/>
+          </video>
+        </div>
+        <div class="video-info">
+          <span class="vtag novel-tag">Novel regime</span>
+          <h3>Planning-heavy execution</h3>
+          <p>Full semantic pipeline active. High novelty, multiple VLM calls, conscious routing throughout.</p>
+        </div>
+      </article>
+
+      <article class="video-card">
+        <div class="video-wrap">
+          <video controls preload="metadata" playsinline>
+            <source src="assets/videos/familiar_anchor.mp4" type="video/mp4"/>
+          </video>
+        </div>
+        <div class="video-info">
+          <span class="vtag familiar-tag">Familiar regime</span>
+          <h3>Automatic execution</h3>
+          <p>Episodic routing bypasses semantic planning. Semantic duty cycle: 0%. Same policy â€” different route.</p>
+        </div>
+      </article>
+
+      <article class="video-card">
+        <div class="video-wrap">
+          <video controls preload="metadata" playsinline>
+            <source src="assets/videos/policy_only.mp4" type="video/mp4"/>
+          </video>
+        </div>
+        <div class="video-info">
+          <span class="vtag ablation-tag">Ablation baseline</span>
+          <h3>Policy-only controller</h3>
+          <p>No semantic or episodic layers. Fast but stateless â€” SR drops to 68.75% in familiar regime.</p>
+        </div>
+      </article>
+
+      <article class="video-card">
+        <div class="video-wrap">
+          <video controls preload="metadata" playsinline>
+            <source src="assets/videos/perturbed_full.mp4" type="video/mp4"/>
+          </video>
+        </div>
+        <div class="video-info">
+          <span class="vtag perturb-tag">Perturbed regime</span>
+          <h3>Obstacle-conditioned execution</h3>
+          <p>Full system under forced-monitor conditions. Current recovery-speed architectural boundary.</p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- â•â• FOOTER â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <svg width="26" height="26" viewBox="0 0 100 100" fill="none" aria-hidden="true">
+        <circle cx="50" cy="50" r="47" fill="rgba(255,255,255,.05)" stroke="rgba(255,255,255,.15)" stroke-width="1.5"/>
+        <line x1="6" y1="50" x2="94" y2="50" stroke="#60a5fa" stroke-width="1.2" stroke-dasharray="5 3" opacity="0.6"/>
+        <path d="M50 10 L26 50 L74 50 Z" fill="rgba(191,219,254,.25)" stroke="#93c5fd" stroke-width="1.5" stroke-linejoin="round"/>
+        <path d="M30 50 C28 56 27 70 28 82 C29 91 38 96 50 96 C62 96 71 91 72 82 C73 70 72 56 70 50 Z" fill="rgba(219,234,254,.12)" stroke="#93c5fd" stroke-width="1.5"/>
+        <circle cx="39" cy="66" r="5" fill="none" stroke="#93c5fd" stroke-width="1.2"/>
+        <circle cx="61" cy="66" r="5.5" fill="#60a5fa" opacity="0.8"/>
+      </svg>
+      <div>
+        <p class="footer-title">Transforming Robot Actions from Conscious to Subconscious</p>
+        <p class="footer-sub">Noora Alhajeri &nbsp;Â·&nbsp; MBZUAI &nbsp;Â·&nbsp; 2026 &nbsp;Â·&nbsp; Supervised by Prof. Yoshihiko Nakamura</p>
+        <p class="footer-sub"><a href="mailto:noora.alhajeri@mbzuai.ac.ae">noora.alhajeri@mbzuai.ac.ae</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* nav active highlight */
+const secs = document.querySelectorAll('section[id]');
+const links = document.querySelectorAll('.nav-links a');
+new IntersectionObserver(es => {
+  es.forEach(e => {
+    if (e.isIntersecting) {
+      links.forEach(l => l.classList.remove('active'));
+      const a = document.querySelector(`.nav-links a[href="#${e.target.id}"]`);
+      if (a) a.classList.add('active');
+    }
+  });
+}, { threshold: 0.3 }).observe(secs[0] || document.body);
+secs.forEach(s => new IntersectionObserver(es => {
+  es.forEach(e => { if (e.isIntersecting) {
+    links.forEach(l => l.classList.remove('active'));
+    const a = document.querySelector(`.nav-links a[href="#${e.target.id}"]`);
+    if (a) a.classList.add('active');
+  }});
+}, { threshold: 0.28 }).observe(s));
+</script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,6 @@
+32: or for specific platforms or hardware, a generalist policy as the name
+34: using a diffusion head. The authors report that, unlike discrete action tokens, diffusion based decoders works best.
+35: • Interestingly the authors suggest that we can train VLAs just like LLM , via next token prediction with cross entropy loss. All we need is only 255 action
+39: • The system comprises two main component namely, S2, a VLM backbone, and S1, a latent-conditional visuomotor transformer. S1 is fast model operating at 200Hz capable of
+42: between the user's command embedding and the names/descriptions of the policies in the library. This is the skilled, subconscious action. IF a highly similar skill policy
+42: • Backed by a small Skill Index (vector DB of text embeddings of skill names + short descriptions + affordance tags).

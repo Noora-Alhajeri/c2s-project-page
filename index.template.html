@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{PROJECT_TITLE}}</title>
+    <meta name="description" content="{{PROJECT_ABSTRACT}}" />
+    <meta property="og:title" content="{{PROJECT_TITLE}}" />
+    <meta property="og:description" content="{{PROJECT_SUBTITLE}}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/triune-preview.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{PROJECT_TITLE}}" />
+    <meta name="twitter:description" content="{{PROJECT_SUBTITLE}}" />
+    <meta name="twitter:image" content="assets/triune-preview.svg" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/triune-favicon.svg" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-noise"></div>
+
+    <header class="topbar">
+      <div class="topbar-inner">
+        <div class="brand">
+          <img class="logo" src="assets/triune-favicon.svg" alt="Triune logo" />
+          <div class="logo-text">TRIUNE HUMANOID LEARNING</div>
+        </div>
+        <nav class="topnav">
+          <a href="#overview">Overview</a>
+          <a href="#method">Method</a>
+          <a href="#results">Results</a>
+          <a href="#videos">Videos</a>
+          <a href="#downloads">Downloads</a>
+          <a href="#citation">Citation</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="title-block">
+          <div class="eyebrow">Triune Brain Architecture</div>
+          <h1>{{PROJECT_TITLE}}</h1>
+          <p class="subtitle">{{PROJECT_SUBTITLE}}</p>
+          <div class="meta">
+            <div class="authors"><strong>{{PROJECT_AUTHORS}}</strong></div>
+            <div class="affiliation">{{PROJECT_AFFILIATION}}</div>
+            <div class="affiliation">{{PROJECT_LOCATION}} - {{PROJECT_DATE}}</div>
+          </div>
+          <div class="links">
+            <a class="btn" href="../assets/thesis_bundle/index.html">Results Bundle</a>
+            <a class="btn" href="../C2S.pdf">Proposal PDF</a>
+            <a class="btn" href="{{PROJECT_PAPER_LINK}}">Paper PDF</a>
+            <a class="btn" href="{{PROJECT_CODE_LINK}}">Code</a>
+            <a class="btn" href="{{PROJECT_VIDEO_LINK}}">Demo Video</a>
+          </div>
+          <div class="callout">
+            <span class="chip">Conscious to Subconscious</span>
+            <span class="chip">Hierarchical Fast/Slow Control</span>
+            <span class="chip">Closed-loop Monitor Always On</span>
+          </div>
+        </div>
+        <div class="media-card">
+          <div class="media-label">Teaser</div>
+          <video controls muted playsinline poster="../assets/teaser_placeholder.png">
+            <source src="../assets/teaser.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section id="overview" class="section">
+        <h2>Abstract</h2>
+        <p>{{PROJECT_ABSTRACT}}</p>
+        <div class="key-grid">
+          <div class="key-card">
+            <div class="key-title">Problem</div>
+            <div class="key-text">Single-path VLA control is slow and compute heavy for repeated tasks.</div>
+          </div>
+          <div class="key-card">
+            <div class="key-title">Core Idea</div>
+            <div class="key-text">Novelty-gated transfer from conscious planning to subconscious execution.</div>
+          </div>
+          <div class="key-card">
+            <div class="key-title">Contribution</div>
+            <div class="key-text">Triune semantic-episodic-procedural architecture with continuous monitoring.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Motivation</h2>
+        <p class="muted-line">How can a humanoid keep conscious and subconscious control active at the same time?</p>
+        <p class="muted-line">How can it plan long-term goals while reacting to fast sensor feedback?</p>
+        <p class="muted-line">How does conscious effort become subconscious skill after practice?</p>
+      </section>
+
+      <section id="method" class="section">
+        <h2>Method</h2>
+        <div class="split">
+          <div class="panel">
+            <div class="panel-title">Three Brain Layers</div>
+            <ul>
+              <li><strong>Neocortex:</strong> scene understanding, symbolic planning, rationale.</li>
+              <li><strong>Limbic:</strong> episodic retrieval, novelty and recall-based gating.</li>
+              <li><strong>Reptilian:</strong> high-frequency policy execution and control.</li>
+            </ul>
+          </div>
+          <div class="panel">
+            <div class="panel-title">Control Loop</div>
+            <ul>
+              <li>Semantic monitor remains active during procedural mode.</li>
+              <li>Novelty threshold selects conscious vs subconscious route.</li>
+              <li>Unexpected error triggers monitor intervention and replanning.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="results" class="section">
+        <h2>Key Results</h2>
+        <div class="split">
+          <div class="panel">
+            <div class="panel-title">Performance</div>
+            <ul>
+              <li>Conscious-to-subconscious speedup after repeated practice.</li>
+              <li>Novelty decay and learning curves tracked per episode.</li>
+              <li>Closed-loop monitoring remains active in procedural phase.</li>
+            </ul>
+          </div>
+          <div class="panel">
+            <div class="panel-title">Evidence</div>
+            <ul>
+              <li>Ablation, zero-shot transfer, and failure taxonomy.</li>
+              <li>Conscious vs subconscious statistics with significance tests.</li>
+              <li>Bundle-ready plots, videos, and LaTeX tables.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="card"><img src="../assets/thesis_bundle/triune_metrics.png" alt="Metrics" /></div>
+          <div class="card"><img src="../assets/thesis_bundle/triune_metrics_scatter.png" alt="Scatter" /></div>
+          <div class="card"><img src="../assets/thesis_bundle/triune_learning_curve.png" alt="Learning curve" /></div>
+          <div class="card"><img src="../assets/thesis_bundle/triune_novelty_decay.png" alt="Novelty decay" /></div>
+          <div class="card"><img src="../assets/thesis_bundle/triune_success_vs_novelty.png" alt="Success vs novelty" /></div>
+          <div class="card"><img src="../assets/thesis_bundle/deployment_efficiency_curve.png" alt="Deployment efficiency" /></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Architecture Figures</h2>
+        <div class="grid">
+          <div class="card">
+            <div class="card-title">Initial Proposed Architecture</div>
+            <img src="../assets/Initial_proposed_architecture.png" alt="Initial proposed architecture" />
+          </div>
+          <div class="card">
+            <div class="card-title">Triune Brain Sketch</div>
+            <img src="../assets/whiteboard_triunebrain_2026-01-24.jpg" alt="Triune brain sketch" />
+          </div>
+          <div class="card">
+            <div class="card-title">System Architecture Figure</div>
+            <img src="../fig_3_1_system_architecture.png" alt="System architecture" />
+          </div>
+          <div class="card">
+            <div class="card-title">Proposal Snapshot</div>
+            <img src="../assets/Thesis_Proposel.png" alt="Thesis proposal snapshot" />
+          </div>
+        </div>
+      </section>
+
+      <section id="videos" class="section">
+        <h2>Videos</h2>
+        <div class="grid">
+          <div class="card">
+            <div class="card-title">Trial 1 vs Trial 100</div>
+            <video controls muted playsinline>
+              <source src="../assets/thesis_bundle/trial1_vs_trial100.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="card">
+            <div class="card-title">Example Episode Panel</div>
+            <img src="../assets/thesis_bundle/example_episode_panel.png" alt="Example episode panel" />
+          </div>
+        </div>
+      </section>
+
+      <section id="downloads" class="section">
+        <h2>Downloads</h2>
+        <div class="download-list">
+          <a class="download-item" href="../assets/thesis_bundle/triune_metrics.csv">triune_metrics.csv</a>
+          <a class="download-item" href="../assets/thesis_bundle/conscious_subconscious_stats.csv">conscious_subconscious_stats.csv</a>
+          <a class="download-item" href="../assets/thesis_bundle/zero_shot_generalization.csv">zero_shot_generalization.csv</a>
+          <a class="download-item" href="../assets/thesis_bundle/deployment_efficiency_report.csv">deployment_efficiency_report.csv</a>
+          <a class="download-item" href="../assets/thesis_bundle/triune_tables_combined.tex">triune_tables_combined.tex</a>
+          <a class="download-item" href="../assets/thesis_bundle/index.html">full_thesis_bundle_index.html</a>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Brain Loop</h2>
+        <div class="brain-grid">
+          <div class="brain-card">
+            <div class="brain-k">Neocortex</div>
+            <div class="brain-v">Semantic planning and rationale generation.</div>
+          </div>
+          <div class="brain-card">
+            <div class="brain-k">Limbic</div>
+            <div class="brain-v">Episodic retrieval, novelty, recall guidance.</div>
+          </div>
+          <div class="brain-card">
+            <div class="brain-k">Reptilian</div>
+            <div class="brain-v">Procedural control loop at high frequency.</div>
+          </div>
+          <div class="brain-card">
+            <div class="brain-k">Feedback</div>
+            <div class="brain-v">Semantic monitor checks execution and can intervene.</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="citation" class="section">
+        <h2>Citation</h2>
+        <pre>
+@article{triune2026,
+  title={{{PROJECT_TITLE}}},
+  author={{{PROJECT_AUTHORS}}},
+  year={2026},
+  institution={{{PROJECT_AFFILIATION}}}
+}
+        </pre>
+      </section>
+    </main>
+
+    <footer>
+      <div>Project page generated from the Triune research pipeline and thesis bundle artifacts.</div>
+    </footer>
+  </body>
+</html>

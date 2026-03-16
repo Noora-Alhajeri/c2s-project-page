@@ -1,0 +1,1135 @@
+No Title Yet!
+02 Sep 2025
+From Unskilled to Skilled Level by
+Implementing a system inspired by the human brain's 
+conscious and subconscious minds
+How can a humanoid have both of systems (conscious & sub conscious) at the same time? 
+How can it plan a long-term goal while reacting to split-second changes in its 
+environment?
+How conscious effort becomes subconscious skill?
+How it mirrors humans (The Dual-Process 
+Theory of Human Cognition):
+1. Conscious Learning: Our consciously think 
+through each step of a new task (e.g., driving 
+a car). This is slow and requires full attention.
+2. Subconscious Execution: After practice, the 
+task becomes automatic. We can drive while 
+having a conversation. Our cerebellum 
+handles the mechanics; our prefrontal cortex 
+is freed up.
+3. The Transformation: The repetition of 
+successful trials gradually rewires our brain, 
+transferring the skill from a conscious to a 
+subconscious level.
+
+Literature
+Categories Date Source Title
+Foundation Models & Generalist Policies May 2025
+https://openhelix-
+robot.github.io/
+OpenHelix: A Short Survey, Empirical Analysis, and Open-Source Dual-System VLA Model for Robotic 
+Manipulation
+Foundation Models & Generalist Policies Mar 2025
+https://arxiv.org/html/2503.
+08338v1 Trinity: A Modular Humanoid Robot AI System
+Foundation Models & Generalist Policies Mar 2025
+https://developer.nvidia.co
+m/isaac/gr00t GR00T N1: An Open Foundation Model for Generalist Humanoid Robots
+Foundation Models & Generalist Policies Feb 2025
+https://github.com/Physical
+-Intelligence/openpi open π
+Foundation Models & Generalist Policies Feb 2025 https://www.figure.ai/ai Helix: A generalist humanoid Vision-Language-Action model that reasons like a human
+Foundation Models & Generalist Policies Sep 2024 https://openvla.github.io/ OpenVLA: An Open-Source Vision-Language-Action Model
+Foundation Models & Generalist Policies May 2024
+https://octo-
+models.github.io/ Octo: An Open-Source Generalist Robot Policy
+Foundation Models & Generalist Policies Dec 2023
+https://github.com/kyegom
+ez/RoboCAT RoboCat: A Self-Improving Generalist Agent for Robotic Manipulation
+Foundation Models & Generalist Policies Jul 2023
+https://robotics-
+transformer2.github.io/ RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control
+Foundation Models & Generalist Policies May 2023
+https://code-as-
+policies.github.io/ Code as Policies: Language Model Programs for Embodied Control
+Foundation Models & Generalist Policies Dec 2022
+https://robotics-
+transformer1.github.io/ RT-1: Robotics Transformer for Real-World Control at Scale
+Foundation Models & Generalist Policies Aug 2022 https://say-can.github.io/ Do AsICan, Not As I Say: Grounding Language in Robotic Affordances
+Literature
+Categories Date Source Title
+Data & Benchmarks May 2025
+Open X-Embodiment: 
+Robotic Learning Datasets 
+and RT-X Models Open X-Embodiment: Robotic Learning Datasets and RT-X Models
+Data & Benchmarks May 2025
+https://research.nvidia.com
+/labs/gear/dreamgen/ DreamGen: Unlocking Generalization in Robot Learning through Video World Models
+Data & Benchmarks Jun 2024
+https://humanoid-
+bench.github.io/ HumanoidBench: Simulated Humanoid Benchmark for Whole -Body Locomotion and Manipulation
+Data & Benchmarks Jan 2023
+https://microsoft.github.io/M
+oCapAct/ MoCapAct: A Multi-Task Dataset for Simulated Humanoid Control
+Data & Benchmarks Sep 2021 https://robomimic.github.io/ What Matters in Learning from Offline Human Demonstrations for Robot Manipulation
+Data & Benchmarks Feb 2021
+https://github.com/ubisoft/u
+bisoft-laforge-animation-
+dataset Robust Motion In-betweening
+Literature
+Categories Date Source Title
+Cognitive & Hierarchical Control 
+Architectures Jun 2025
+https://www.physicalintellig
+ence.company/research/re
+al_time_chunking Real-Time Execution of Action Chunking Flow Policies
+Cognitive & Hierarchical Control 
+Architectures May 2025
+https://www.physicalintellig
+ence.company/research/kn
+owledge_insulation Knowledge Insulating Vision-Language-Action Models: Train Fast, Run Fast, Generalize Better
+Cognitive & Hierarchical Control 
+Architectures Apr 2025
+https://www.physicalintellig
+ence.company/blog/pi05 π0.5: A Vision-Language-Action Model with Open-World Generalization
+Cognitive & Hierarchical Control 
+Architectures Feb 2025
+https://www.pi.website/rese
+arch/hirobot#robots-that-
+talk-to-themselves Hi Robot: Open-Ended Instruction Following with Hierarchical Vision -Language-Action Models
+Cognitive & Hierarchical Control 
+Architectures Jan 2025
+https://www.physicalintellig
+ence.company/research/fas
+t FAST: Efficient Action Tokenization for Vision-Language-Action Models
+Cognitive & Hierarchical Control 
+Architectures Oct 2024
+https://arxiv.org/html/2410.
+15549v1 A Dual Process VLA: Efficient Robotic Manipulation Leveraging VLM
+Cognitive & Hierarchical Control 
+Architectures Oct 2024
+https://www.physicalintellig
+ence.company/blog/pi0 π0: A Vision-Language-Action Flow Model for General Robot Control
+Cognitive & Hierarchical Control 
+Architectures Mar 2024 https://yay-robot.github.io/ Yell At Your Robot: Improving On-the-Fly from Language Corrections
+Cognitive & Hierarchical Control 
+Architectures Feb 2024 https://jlm-z.github.io/RSFT/Language-Conditioned Robotic Manipulation with Fast and Slow Thinking
+Cognitive & Hierarchical Control 
+Architectures Sep 2022
+https://clvrai.github.io/skimo
+/ Skill-based Model-based Reinforcement Learning
+Cognitive & Hierarchical Control 
+Architectures Oct 2021
+https://arxiv.org/pdf/2110.0
+1834 Thinking Fast and Slow in AI: the Role of Metacognition
+Cognitive & Hierarchical Control 
+Architectures Dec 2020
+https://arxiv.org/pdf/2401.0
+4181 Thinking Fast and Slow in AI
+Cognitive & Hierarchical Control 
+Architectures Jun 2020
+https://openreview.net/pdf?i
+d=iFQJmvUect9 Robots Thinking Fast and Slow: On Dual Process Theory and Metacognition in Embodied AI
+Initial Proposed Architecture
+Cognitive Architecture for Skill Learning
+Subconscious System
+Conscious System
+Initial Proposed Architecture
+Vision Sensor 
+Camera Tokens LLM Text
+?Robot
+NNText
+(Human Command)
+Progress Update
+Done:
+• Initial System Architecture (conscious & sub conscious)
+• Literature: Main Theory & Goal
+• Simulation Environment Setup
+Doing:
+• Finalizing the specific models and data
+• Defining the core scenario/task
+
+No Title Yet!
+09 Sep 2025
+From Unskilled to Skilled Level by
+Implementing a system inspired by the human brain's 
+conscious and subconscious minds
+How can a humanoid have both of systems (conscious & sub conscious) at the same time? 
+How can it plan a long-term goal while reacting to split-second changes in its 
+environment?
+Transform Robot Actions from 
+Conscious to Subconscious
+Initial Title 
+09 Sep 2025
+Baseline
+A standard LLM/VLM-Conscious system. This is a model like 
+GR00T's VLM that:
+• Takes in language commands and images.
+• Reasons step-by-step to generate a plan.
+• Executes actions slowly and carefully.
+This represents the unskilled, novice state.
+Goal
+To achieve Subconscious execution. This is a model that:
+• Takes in only sensory data (images, robot state).
+• Is triggered by a context (e.g., seeing a specific object 
+configuration).
+• Outputs fast, smooth, reflexive actions without any internal 
+reasoning.
+This represents the skilled, expert state.
+Conscious to Subconscious Transformer
+Goal: building the learning process that allows a conscious action to become a subconscious 
+habit.
+1. Conscious Action: The VLM is given a task (e.g., "pick up cup"). It reasons, plans, and executes a slow, careful, 
+and potentially jerky action. (During-Action Reasoning)
+2. Practice & Repetition: This conscious action is performed repeatedly. Successful attempts are logged.
+3. Transformation: The Transformer component takes these logged successful attempts and compiles them. It 
+distills the successful motion into a robust, efficient "habit" or "reflex. “
+4. Subconscious Assimilation: This new "habit" is installed into the Subconscious Model. Now, when the robot 
+sees the cup, the subconscious system automatically triggers the smooth, fast "pick up" reflex without any 
+involvement from the conscious VLM. (Post-Action Reflection).The Cerebellum would be a sub-component 
+that takes the initial motor commands from the Subconscious Model and optimizes them for grace and 
+precision before they are sent to the muscles (actuators).
+5. Parallel Operation: The systems now work independently:
+- The Subconscious System handles the perfected skill of "picking up the cup. "
+- The Conscious System is free to do other things: reason about which cup to pick up, what to do with it, or 
+even "think" about an unrelated task. The next time the robot is tasked with a similar action, the subconscious 
+model takes over, leaving the VLM free to "think about other things" or plan a different task entirely.
+Conscious vs. Subconscious in Humans
+Conscious Processing ("System 2")
+• What it is: Slow, deliberate, effortful reasoning (Kahneman’s “Thinking, Fast and Slow”).
+• Inputs: Explicit goals (“I want to pour water”), sensory input (vision, proprioception), active 
+attention.
+• Processing: High cognitive load, step-by-step reasoning, feedback loops after each micro-
+action.
+• Outputs: Planned motor actions (sequence of joint movements, tool use).
+• Speed: Slow (hundreds of ms to seconds per decision).
+• Brain areas:
+• Prefrontal cortex → planning, reasoning, decision-making.
+• Cerebellum (posterior lobes) → error correction & fine adjustment during deliberate movements.
+• Learning role: First exposure to new tasks (typing for the first time, driving lesson).
+• Example:
+• You pour water for the first time → thinking of grip, bottle angle, when to stop.
+• Errors happen because you’re consciously monitoring each step.
+Conscious vs. Subconscious in Humans
+Subconscious Processing ("System 1")
+• What it is: Automatic, fast, low-effort execution of well-practiced skills.
+• Inputs: Minimal sensory trigger (just a glance at bottle & glass, no verbal command).
+• Processing: Motor patterns retrieved from memory (“motor schemas”). Little/no explicit 
+reasoning. Can run in parallel with unrelated thoughts.
+• Outputs: Smooth continuous actions.
+• Speed: Very fast (tens of ms).
+• Brain areas:
+• Cerebellum (anterior lobes & deep nuclei) → timing, coordination, motor memory.
+• Basal ganglia → habit learning & action selection.
+• Motor cortex → low-level execution.
+• Learning role: After repetition, skills “compile” here (procedural memory).
+• Example:
+• Typing → you don’t think of each key; your fingers just do it while you think of dinner.
+• Driving a familiar route → you arrive and barely remember the trip.
+Conscious vs. Subconscious in Humans
+Key Differences
+Aspect Conscious (System 2) Subconscious (System 1)
+Speed Slow (deliberate, stepwise) Fast, automatic
+Effort High, attention-heavy Low, effortless
+Error Handling Careful monitoring, frequent 
+corrections
+Smooth, with small slips 
+ignored/corrected automatically
+Input Explicit goals, reasoning, 
+attention Minimal cue, past learning
+Output Stepwise actions Fluid skill execution
+Brain Areas Prefrontal cortex, cerebellum Cerebellum, basal ganglia, motor 
+cortex
+Example First time cooking a recipe Cooking it after 100 times
+Conscious vs. Subconscious in Humans
+Cerebellum’s Role
+• Error correction (compares intended vs. actual movement).
+• Motor learning (stores fine-grained timing of repeated actions).
+• Execution speed control (makes subconscious motions smooth and 
+fast).
+• Cognitive cerebellum (recent studies: contributes to reasoning & 
+language, but mostly timing/control).
+• In terms of percentage:
+• Subconscious controls ~95% of daily actions (walking, typing, 
+eating).
+• Conscious reasoning is reserved for novel, complex, or risky tasks.
+The Transformation Process
+• To build a framework that models the human transition from conscious, reasoned action to subconscious, automatic 
+skill.
+• To create a true subconscious action model that operates independently, without any direct instruction or goal embedding 
+from a conscious system.
+• Develop a framework for transforming robot actions from a conscious (LLM/VLM-driven, slow, deliberate) level to a 
+subconscious (policy-driven, fast, automatic) level, inspired by cognitive science theories of skill acquisition.
+1. Conscious Level (LLM/VLM-driven):
+Slow, deliberate reasoning. Used for first-time, unskilled execution. In robotics → LLM/VLM generates action plans with 
+feedback correction. VLM/LLM planner (e.g., GR00T’s frozen VLM) that can execute tasks slowly with feedback, generate first-
+time demonstrations, and reflect on errors. It's the slow, careful process of thinking, planning, and making logical decisions 
+about what to do. The conscious system has a slow feedback loop. It relies on high-level sensory input and reasoning to make 
+corrections (e.g., "I moved too far, I need to adjust"). This is the learning loop.
+2.Subconscious Level (Transformer/Diffusion Policy):
+Fast, reflex-like execution. No explicit reasoning, goal tokens, or plans. Instead → direct mapping from perception + robot state 
+to motor actions, learned from repeated practice. a goal-free diffusion transformer policy that takes only egocentric video + 
+proprioception (+ tactile if available) and outputs actions at high rate; no text, no plans, no goal vectors at inference. It's the 
+system that controls the how of the motion—its speed, smoothness, and fine-tuned accuracy. The subconscious system has 
+an incredibly fast, internal feedback loop. It makes micro-adjustments without conscious thought (e.g., your hand instantly 
+correcting for a small slip). This is the execution loop.
+• Transformation Pipeline:
+Data collected from conscious executions → stored → distilled into fast subconscious policies → added to a skill library. Over 
+time → more tasks transfer to subconscious, just as humans do when learning. after the conscious loop succeeds the first 
+times, trajectories are distilled offline into the subconscious policy; then future runs bypass the planner automatically.
+Contributions
+1. True Subconscious Action Model
+• Build a dedicated subconscious policy layer (transformer/diffusion) that runs without reasoning or goal inputs.
+• It executes from raw sensory streams (vision, proprioception) → action, mimicking reflex-level control.
+2. Conscious → Subconscious Transformation Pipeline
+• Show how data from deliberate conscious execution can be logged, distilled, and replayed until the policy achieves reflex-
+level speed.
+• Propose this as a general framework for skill transfer in humanoid robots.
+3. Skill Recorder & Library
+• Build an automated skill memory: successful tasks get saved as standalone policies.
+• Future commands trigger a task recognizer that decides:
+• If new task: conscious execution (LLM/VLM + feedback).
+• If known task: subconscious policy execution.
+4. Cognitive Science Mapping
+• Explicitly frame your system as an engineering realization of dual-process theory (Kahneman’s “thinking fast and slow”), 
+highlighting the transformation from conscious to subconscious.
+• This makes it stand out as more than “just another VLA model. ”
+
+No Title Yet!
+16 Sep 2025
+From Unskilled to Skilled Level by
+Implementing a system inspired by the human brain's 
+conscious and subconscious minds
+How can a humanoid have both of systems (conscious & sub conscious) at the same time? 
+How can it plan a long-term goal while reacting to split-second changes in its 
+environment?
+Progress Update
+Done:
+• Specific models and data
+• Simulation Example Task Bassline Test 
+Doing:
+• Cognitive and Neurosciences Theories 
+• Literature
+• Finalizing the Implementation Plan
+Foundation Model - NVIDIA Isaac GR00T
+GR00T N1: An Open Foundation Model for Generalist Humanoid Robots (27 Mar 2025)
+Simulation of a Fourier GR-1 humanoid robot performing 
+a "pick and place" task
+• Command : ['pick the pear from the 
+counter and place it in the plate'
+• So;
+• Sys 2 (Eagle 2.5 VLM) = Goal Embedding
+• Sys1 (Diffusion Transformer) =  Action
+System Input Output
+Sys 2 (conscious) Image Tokens + Text Tokens Goal Embedding (a tensor)
+Sys 1 (subconscious) Goal Embedding + Current State Action Tensor (a tensor)
+Dual-Process Theory “Thinking Fast and Slow”
+• How can we make a robot that learns how to do X, and 
+then does it efficiently, like a human does?
+• Dual level expert systems: (Together these systems 
+mimic the dual process theory by Daniel Kahneman 
+combining high level planner with low-level rapid 
+execution.)
+• System 2 (“thinking slow“): Here, the VLM takes in vision and text as context, to make 
+methodological decision about complex scenarios and intermediate tasks it sees. This guides the 
+overall robot’s behavior as of their excellent understanding about the robot’s world. They acts as high 
+level planner to achieve their main goals by dividing into multiple intermediate subtasks and 
+reason over the multi-modal inputs and generate trajectories.
+• System 1 (“thinking fast“): Then a transformer decoder or a diffusion model acts as an action 
+expert for low level control and dexterous locomotion. We knew that diffusion models has rich 
+image priors, the system leverages its superior semantic scene relationships which translates and 
+executes the system 1’s guided path or instructions to perform agile and fine-grained motor actions.
+Fitts & Posner model "The Three-Stage Model of 
+Skill Acquisition"
+• To achieve these goals, learners must use cognitive (Fitts & Posner, 1967) and verbal 
+processes (Adams, 1971) to solve problems. 
+• To this end, Fitts (1964; Fitts & Posner, 1967) suggests that motor skill acquisition follows 
+three stages;
+ 1. Cognitive stage,
+ 2. Associative stage
+ 3. Autonomous stage
+Fitts & Posner model "The Three-Stage Model of 
+Skill Acquisition"
+Three-stage process for how an unskilled task becomes a skilled, automatic one;
+1. The Cognitive Stage (Conscious)
+• In Humans: A novice must pay full, conscious attention to every step. They think about "what to do. " This is effortful, slow, and prone 
+to error. For example, a beginner learning to drive thinks about every action: "Press the brake, turn the wheel, check the mirror. "
+2. The Associative Stage (Practice)
+• In Humans: With practice, the learner begins to associate specific movements with success. They make fewer errors and require 
+less conscious thought. The movements become smoother.
+3. The Autonomous Stage (Subconscious)
+• In Humans: After extensive practice, the skill becomes automatic and subconscious. The person can perform the task without 
+thinking about it and can focus their conscious attention elsewhere. A skilled driver can talk on the phone (hands-free!), listen to the 
+radio, and navigate complex traffic without consciously thinking about steering or braking.
+Generalist Robot Policies (GRP)
+• A single, unified model capable of solving multiple downstream tasks 
+or adapt to new tasks without task specific fine-tuning
+• Unlike traditional policies which has to be trained for multiple subtasks 
+or for specific platforms or hardware, a generalist policy as the name 
+suggests the model develops emergent behaviors to generalize 
+across unseen tasks, novel scenarios or even in any hardware 
+setups
+• For example, models like RT-2, π0 (Pi-Zero) and Gr00t N1. These GRP 
+aren’t just stuck up with the pre-programmed or hard coded 
+instructions rather self-explore and navigate through tasks or problems 
+with intermediate goals with their “Observe Understand and Action” 
+nature
+Generalist Robot Policies (GRP)
+1. RT-2 from Google
+• Robotic Transformer (RT-2) is a closed source, novel vision language action model developed by Google Deepmind Robotics team. The model doesn’t 
+just memorize-it understands the context and employs a chain of thought reasoning enabling it to adapt learned concepts to new s ituations.
+• It comprises pretrained PaLI-X (55B) as vision model and PaLM-E (12B) embodied models as backbones, co-trained with vision data and upweighted 
+robotics action data. It takes in a robot’s camera input (image) and an NLP query, and outputs discrete action tokens, which are then detokenized to 
+generate code-based instructions that can control a robot similar to text responses from an LLM.
+• The output is a sequence of action tokens as a string that describe the position and orientation of the robot’s end effector for manipulation, forming a 
+closed loop control.
+• It was found that the model learned emergent properties, solving novel tasks that the model wasn’t trained for such as human recognition, symbol 
+understanding and reasoning. This level of generalization capabilities was the first of its kind all thanks to its training with web scale data. As the model 
+directly executes actionable behavior, while getting rid of task-specific policies. 
+
+Generalist Robot Policies (GRP)
+2. Octo from UC Berkeley
+• Octo (93M) is an open source transformer based generalist policy trained on 800,000 robot demonstrations from OpenX-
+Embodiment Dataset and it performs on par with behemoth models like RT-2 (55B). All of the robotic data is taken, 
+converted into a sequence of input tokens, and passed through the Octo transformer.
+• At first the input instructions are passed as task tokens to the language encoder, along with a patched image passed to a 
+CNN encoder as observation tokens. Then, the embeddings of the Octo transformer are decoded to output action tokens 
+using a diffusion head. The authors report that, unlike discrete action tokens, diffusion based decoders works best.
+• A unique attribute of Octo is its flexible and adaptable to different observation input such as wrist and third-person camera 
+view.To adapt Octo to our robot configuration or action spaces, we will need to simply finetune it on a small demonstration 
+dataset.
+• Octo has three variants: Octo-Tiny, Octo-Small, Octo-Base (~93M)
+
+Generalist Robot Policies (GRP)
+3. OpenVLA from Stanford
+• OpenVLA is a open source 7B parameter model trained on 970K episodes of Open X-Embodiment dataset for generalist robotic manipulation tasks. It 
+consists of three main components:
+1. Vision Encoder: Uses a dual vision encoder approach with DINOv2 (~300M) and SigLIP (~400M) which takes in an image and creates embeds flattened 
+patches. DINOv2 excels at spatial relationships while SigLIP offers strong language alignment properties. To adapt the vision encoders to new tasks like action 
+prediction it is important to unfreeze and train these model layers as well.
+2.Projector: Vision embeddings are mapped into a shared embedding space of LLM using an MLP projector.
+3.LLM: Llama2 7B model takes in an language instruction and is tokenized. The vision embeddings and text tokens together is passed as a sequence to LLM to 
+generate actions such as changes in position, rotation and gripper state which can be directly used as continuous signals to control robots end effector.
+• Franka Emika Panda 7-DoF robot arm is used as test bed operating at 5Hz for evaluation and benchmarks. The project also added support for parameter 
+efficient fine-tuning techniques like LoRA and experimental results shows these PEFT models perform on par with the original model.
+• Interestingly the authors suggest that we can train VLAs just like LLM , via next token prediction with cross entropy loss. All we need is only 255 action 
+tokens to represent entire action space of a robot given the visual observation and language instruction.
+• Experimental studies shows that OpenVLA outperforms RT-2-X(55B) despite having 7 times fewer parameters. However OpenVLA natively doesn’t perform 
+well on Out of Distribution (unseen) dataset compared to RT-2 as it wasn’t trained on web data unlike RT-2. Therefore fine-tuning on unseen data 
+distribution helps the model to quickly adapt to the novel episodes.
+
+Generalist Robot Policies (GRP)
+4. QUAR-VLA: Quadruped Robots from MiLAB
+• QUAR-VLA, Vision Language Action Model for Quadruped Robots mainly targets four-legged robots to navigate complex 
+terrains and perform various tasks. Legged robots require complex coordination of multiple joints and gait management 
+which is efficiently handled using QUAR-VLA.
+• QUAR-VLA is trained on dataset containing navigation, locomotion on complex terrain including both real-world and 
+synthetic data.
+• QUART-2 takes in a set of observation images and language instruction from user. These instructions are tokenized as 
+concatenated and is passed to the pretrained VLM to generate discrete action tokens at 2Hz. The output discretizes the 
+continuous action space of quadruped robots into 255 bins for effective learning and execution.
+
+Generalist Robot Policies (GRP)
+5. ALOHA from Google Deepmind
+• ALOHA (A Low-cost Open-source Hardware System for Bimanual Teleoperation) is 
+developed to advance the research of robotic teleoperation at an affordable cost around 
+$20,000. It is basically an hardware platform for robotic manipulation tasks using an 
+teleoperation (humans) and the original ALOHA doesn’t have any VLA integrated natively.
+• However, the research communities used ALOHA as test bed to benchmark and evaluate 
+their VLA models for bimanual manipulation tasks, especially Mobile ALOHA, OpenVLA-OFT, 
+π0, RDT-1B etc.
+
+Generalist Robot Policies (GRP)
+6. π0: Physical Intelligence
+• π is a foundational Vision-Language-Action Flow Model for general robot control from Physical Intelligence with two variants π0 (Pi-Zero) and π0 Fast. It comprises 
+of a ~3B pretrained Paligemma VLM model as base backbone and an additional 300M diffusion model as an action expert trained on π Cross-Embodiment Robot 
+dataset. VLAs has additional action and state tokens appended at the end of image and text tokens. The model is pretrained with massive, diverse dataset and
+• VLM: The VLM uses SigLIP as image encoder an Gemma for language commands. The VLM doesn’t see the future robot state/actions tokens preventing the model from 
+any sort of confusion to interpret visual information from its pre-trained knowledge. By adapting this VLM to also act an action expert is added which tightly works with 
+VLM.
+• Action Expert: The action expert attends to all the previous vision/language/robot state tokens which represents the full scene to produce context-conditioned actions. 
+Instead of just one action (discrete) token, it generates continuous sequences of action tokens (H = 50) by usingconditional flow matching for smooth and realistic 
+movements.
+• π0-FAST an extension of π0 which works in autoregressive manner unlike π0, with Frequency-space Action Sequence Tokenization (FAST) introduces a novel time-
+series compression approach using the Discrete Cosine Transform (DCT). FAST reduces redundancy, improves efficiency, and enhances action fidelity.
+
+Generalist Robot Policies (GRP)
+7. Helix by Figure AI
+• Helix is a closed source generalist VLA model for Humanoid Control developed by FigureAI trained on ~500 hours of high-quality, multi-robot dataset in supervised fashion. It 
+proposes a first-of-its-kind decoupled dual system architecture similar to open source Groot N1 with System-2 manages high level planning and System-1 for handling high 
+frequency low level tasks.
+• One neural network: Unlike prior approaches, Helix uses a single set of neural network weights to learn all behaviors; picking and placing items, using drawers and refrigerators, 
+and cross-robot interaction; without any task-specific fine-tuning.
+• The system comprises two main component namely, S2, a VLM backbone, and S1, a latent-conditional visuomotor transformer. S1 is fast model operating at 200Hz capable of 
+quickly adapting to real-time actions of partner robot, whereas S2 is a slower thinking model that process visual cues and semantic objectuves of a scene.
+• S2 is built on a 7B-parameter open-source, open-weight VLM pretrained on internet-scale data. It processes monocular robot images and robot state information (consisting of 
+wrist pose and finger positions) after projecting them into vision-language embedding space. Combined with natural language commands specifying desired behaviors, S2 distills 
+all semantic task-relevant information into a single continuous latent vector, passed to S1 to condition its low-level actions.
+• S1, an 80M parameter cross-attention encoder-decoder transformer, handles low-level control. It relies on a fully convolutional, multi-scale vision backbone for visual processing, 
+initialized from pretraining done entirely in simulation. While S1 receives the same image and state inputs as S2, it processes them at a higher frequency to enable more responsive 
+closed-loop control. The latent vector from S2 is projected into S1’s token space and concatenated with visual features from S1’s vision backbone along the sequence dimension, 
+providing task conditioning.
+
+Generalist Robot Policies (GRP)
+8. GR00T N1 from Nvidia
+• Following the same architectural and design principles of Helix, Nvidia released GR00T N1, an open 
+foundational model for generalist humanoid reasoning and control. N1 is a 2B parameter model 
+(eagle2_hg_model backbone) trained on massive set of both synthetic from Omniverse and Cosmos 
+along with real captured data of humanoid robot dataset. Pretrained policies can be seamlessly 
+adapted to cross embodied systems.
+• Observation, language instruction and robot state are encoded as tokens and is passed to System 2 
+and System 1 to predict action tokens that can directly control the robots.
+• System 2: VLM that interprets phsical world with vision and language instructions by reasoning over to 
+plan the right actions.
+• System 1: A Diffusion Transformer that follows the instructions of System 2 by denoising to produce 
+meaningful smooth and precise motor actions at 120Hz.
+
+Generalist Robot Policies (GRP)
+9. Gemini Robotics
+• Google Deepmind introduced Gemini Robotics which is powered by powerful Gemini 2.0 multimodal. This enables to 
+perform high frequency motor control at 20Hz, dexterous tasks and perform complex daily tasks precisely.
+• The family consists of two primary models:
+1.Gemini Robotics-ER (Embodied Reasoning): This uses native Gemini 2.0 without fine-tuning on any robot action data. It 
+purely dependent on the superior spatial-relationship and vast internet pretrained knowledge about robot concepts.
+2.Gemini Robotcs: Extending Gemini Robotics-ER by fine-tuning on action data for direct robot control. Its is a single unified 
+model that handles perception, reasoning and action generation without separate diffusion.
+
+System Architecture
+1. Conscious Reasoning Loop (Teacher-guided practice)
+• This loop is initiated by high-level natural language command, like "pour water. From the bottle into the glass“
+• This is the unskilled, slow, deliberate thought process.
+2. Subconscious Rehearsal Loop (Student)
+This is a new component will build. It will repeatedly simulate the task to acquire skill.
+• Teacher-Guided Simulation: The GR00T diffusion policy (System 1) attempts to execute the VLM's plan within the NVIDIA Isaac Sim environment.
+• Trial and Error: The robot performs the action, often failing initially. The simulation state (robot joints, object poses, camera feeds) is constantly logged.
+• Data Logger: will write a script to capture the successful trials, recording a sequence of state, action, and image data. This is crucial as it creates a high-quality dataset 
+of skilled demonstrations. The data must be saved in the Hugging Face LeRobot format.
+• Registers it into the Skill Library and updates the Skill Index with a new embedding.
+3. The Skill Complier/Transition (the automation that handles the learning process)
+• Once have a large enough dataset of successful trials from the simulationb (syntheic data froim dreamgen ), will fine-tune a new, task-specific policy. The original GR00T 
+fine-tuning script will take the new dataset as input and output a specialized, fast-acting policy. This is the moment the unskilled conscious plan becomes a skilled 
+subconscious reflex.
+4. The Skill Library (Motor Memory)
+• A file directory/database that stores the fine-tuned policies. When the robot is given a command it has already learned , the VLM will recognize it as a pre-existing skill 
+and, instead of going through the entire rehearsal loop, will simply call the dedicated, fast-acting policy from the library. It performs a fast semantic similarity search 
+between the user's command embedding and the names/descriptions of the policies in the library. This is the skilled, subconscious action. IF a highly similar skill policy 
+is found (e.g., a similarity score above a certain threshold), the VLM's "conscious" thought process is complete. It tells the system to load and execute that pre-trained, 
+subconscious policy directly. ELSE, if no matching skill is found, the VLM generates a high-level plan and triggers the "Conscious Rehearsal Loop" to create the new skill.
+5. Task Recognizer (the decision-making “meta-cognitive switch”) 
+• A simple function that checks the Skill Library upon a new command
+• Checks whether an incoming command matches a known skill.
+• If found → bypass planning, load the fast skill policy (subconscious reflex).
+• If not found → enter Conscious Rehearsal to acquire the skill.
+• Backed by a small Skill Index (vector DB of text embeddings of skill names + short descriptions + affordance tags).
+The Inputs to the Robot
+the robot's input is multi-modal:
+• Vision: RGB-D camera images (what the robot sees).
+• Proprioception: Its own joint angles, positions, and velocities 
+(where its body is).
+• Speech/Text: The natural language command from the user (e.g., 
+"wave hello").
+The Closed Feedback Loop & Safety
+• This is how the robot stays aware and adaptive:
+1. During Execution (Monitor): A separate, high-priority "Observer 
+Module" constantly watches the world state and the robot's own 
+sensors.
+• Is the task succeeding? (e.g., is the object being picked up?)
+• Is something wrong? (e.g., did an obstacle appear? Did a human say "STOP!"?)
+2. Interruption: If the Observer detects a problem, it sends an interrupt 
+signal directly to the policy, forcing it to stop and revert to a safe state.
+3. Feedback to Consciousness: The outcome of the action (success or 
+failure) is fed back to the Conscious System. This is how the robot knows 
+that its attempt at a new task failed and needs to trigger the Skill 
+Compiler.
+
+No Title Yet!
+06 Oct 2025
+From Unskilled to Skilled Level by
+Implementing a system inspired by the human brain's 
+conscious and subconscious minds
+How can a humanoid have both of systems (conscious & sub conscious) at the same time? 
+How can it plan a long-term goal while reacting to split-second changes in its 
+environment?
+Conscious-to-subconscious skill transfer with a hierarchical, multi-
+system control architecture inspired by the human brain
+A. MacLean's Triune Model (The Architecture): they all memory types work together is met 
+by making the Semantic and Episodic memories actively condition and monitor the Procedural 
+execution.
+MacLean's Layer 
+(Human Brain)
+Robotics Component 
+(The Analogy)
+Memory Type (The 
+State) Control Speed
+Neomammalian Brain 
+(Neocortex)
+Conscious Layer 
+(VLM/Knowledge Graph)
+Semantic (General facts, 
+world knowledge, object 
+properties )
+Slow/High-Level
+Paleomammalian Brain 
+(Limbic System)
+Intermediate Layer (LLM 
+Memory/Retrieval/vector 
+Database)
+Episodic (Personal 
+history, specific past 
+events, contextual when 
+and where information. )
+Medium/Planning
+Protoreptilian Brain 
+(Cerebellum
+-Basal Ganglia/Brain 
+Stem)
+Subconscious Layer (Fast 
+NN Policy)
+Procedural (Automated 
+skills, motor habits, 
+"know-how. ")
+Fast/Low-Level
+Inspired by MacLean's Triune Brain Theory
+• Neomammalian Brain --> Semantic Memory (VLM/LLM - 
+conscious reasoning)
+• Paleomammalian Brain --> Episodic Memory (experience storage)
+• Protoreptilian Brain --> Procedural Memory (fast motor control)
+* All the memory system must work together simultaneously. 
+Even during subconscious execution, conscious layer monitors
+Conscious-to-subconscious skill transfer with a hierarchical, multi-
+system control architecture inspired by the human brain
+B. Fitts and Posner Model (The Skill Transfer Process)
+1. Cognitive Stage (Unskilled → Conscious): The robot is in a high-attention, slow-feedback loop.
+• Robot Behavior: The Conscious Layer (VLM/LLM) heavily dominates, translating high-level 
+instructions (text/vision) into low-level action steps. Performance is slow, erratic, and requires 
+significant VLM computational cycles, mirroring the human beginner's reliance on self-talk and explicit 
+verbal instructions. This is initial state.
+2. Associative Stage (Refinement → Practice): The VLM's successful execution traces are used to train a 
+dedicated, lightweight NN policy (Policy Distillation).
+• Robot Behavior: The NN policy begins to take over action generation, becoming the Subconscious 
+Layer. Performance improves, errors decrease, and the need for VLM intervention is reduced, though 
+still required for novel situations or complex sub-tasks.
+3. Autonomous Stage (Skilled → Subconscious): The skill is fully internalized.
+• Robot Behavior: The Subconscious Layer executes the task at high speed with little to no VLM 
+intervention. The VLM now operates in a low-frequency monitoring mode (error checking, dual-
+tasking) only intervening if a large sensory prediction error occurs, effectively freeing up the "conscious" 
+resources for other tasks (like thinking about dinner). This is final goal state.
+Conscious-to-subconscious skill transfer with a hierarchical, multi-
+system control architecture inspired by the human brain
+C. The Cerebellum (The Mechanism for Speed and Automation)
+The Cerebellum's role is critical for the speed, precision, and automation (the 
+"fast, skilled" part of the goal).
+• Role in Humans: The cerebellum acts as an internal forward model that 
+predicts the sensory consequences of motor commands, allowing for real-
+time error correction and anticipatory control. It is central to the automation 
+of motor skills (procedural learning) and even non-motor cognitive tasks. 
+Damage to the cerebellum necessitates increased attention from higher-level 
+executive areas, supporting the link between cerebellum function and 
+reduced conscious effort.
+RQs
+• How can humanoids have both conscious & subconscious systems 
+simultaneously.
+• How to transform unskilled task execution to skilled task 
+execution?
+• How to enable robots to plan long-term goals while reacting to 
+split-second changes?
+• How to implement hierarchical system with lower-level (fast 
+responding feedback loop), higher-level (slow deliberate control), 
+all memory layers active and updated together.
+Main Goals
+1. Develop a Hierarchical Hybrid Control System for Skill Transfer:
+• Engineer a high-level (slow/VLM/Conscious) to low-level (fast/NN/Subconscious) hierarchical architecture that 
+explicitly incorporates a Mid-Level Skill Refiner (Paleomammalian/Cerebellum analog). Demonstrate smooth 
+transition from deliberate, unskilled actions to fast, skilled behaviors on the Humanoid H1 platform, while 
+retaining continuous high-level monitoring.
+• The refiner must mediate the smooth, quantitative transition of a task from high-level, deliberate planning (VLM 
+instructions) into fast, efficient, low-level execution (refined NN policy), thus demonstrating the "Conscious-to-
+Subconscious" skill transfer.
+2. Integrate MacLean’s 3-in-1Hypotheses with a Continuous, Co-operating Memory 
+System:
+• Implement a unified memory system where Semantic (neocortex, rational cognition and language, VLM knowledge, 
+reasoning, provides symbolic scene understanding and high-level planning., facts), Episodic (limbic system, RAG 
+error/success logs, stores, retrieves and reasons over experience to aid planning and learning), and Procedural 
+(basal ganalia, learn and excutes motor skills more efficiently over time , NN weights/Skill Refiner parameters) layers 
+are continuously active, updated, and cross-aware, not just sequential.
+• Demonstrate that the procedural skill refinement is informed by semantic high-level goals and episodic task-
+specific failures/successes, leading to a more robust and faster skill acquisition than standard imitation learning or 
+policy distillation methods.
+
+No Title Yet!
+14 Oct 2025
+From Unskilled to Skilled Level by
+Implementing a system inspired by the human brain's 
+conscious and subconscious minds
+How can a humanoid have both of systems (conscious & sub conscious) at the same time? 
+How can it plan a long-term goal while reacting to split-second changes in its 
+environment?
+System Architecture: A Unified Hierarchical 
+Model
+• It is a unified hierarchical control system with three levels of memory, fulfilling Goal 1 
+(Hierarchical Control) and Goal 2 (All Memory Together).
+• Memory 
+  Component Mapping
+Memory Type Hierarchical Layer 
+(Control Rate) Component Goal
+Semantic (General 
+Knowledge/Facts, Logic, 
+Reasoning, Planning, Concepts, 
+Meaning of words)
+High/Slow-Level Control (~ 1Hz)
+VLM (System 2) + Constrained CoT 
+Prompting = make it thinking out 
+load
+Constrained CoT Prompting 
+(handles all aspects of Semantic 
+(Declarative) Memory; both the 
+Knowledge (what is) and the 
+Reasoning/Planning (how to do it 
+safely)) for explicit, visible 
+reasoning; RAG interface to DB . 
+Episodic (Specific Events (where, 
+when, emotions), Personal 
+Experience, Context) 
+Mid/Learning-Level (Offline) Vector Database + VLM Encoder, 
+Policy Distillation Module
+Stores in  D Band retrieves past 
+successful/failed conscious 
+traces. Algorithm to distill 
+successful VLM-guided 
+trajectories into efficient NN_P.
+Procedural (Learned Skill/ Tasks, 
+Habits) Low/Fast-Level Control (~120 Hz) Diffusion Transformer (System 1)
+Fast, high-frequency motion 
+generation and execution. Fine-
+tuned NN_P for fast, learned, 
+stable Whole-Body Control.
+MacLean Integration
+• Semantic/Neocortex: Perception, reasoning, and plan as 
+symbolic knowledge
+• Episodic/Limbic: All experiences, outcomes, and critiques saved 
+and searchable—system "remembers" failures and can adjust 
+next plans accordingly
+• Procedural/Basal Ganglia: Will use successful 
+e_subgoals/episodes for fast, direct control later
+
+No Title Yet!
+14 Oct 2025
+From Unskilled to Skilled Level by
+Implementing a system inspired by the human brain's 
+conscious and subconscious minds
+How can a humanoid have both of systems (conscious & sub conscious) at the same time? 
+How can it plan a long-term goal while reacting to split-second changes in its 
+environment?
+Progress Update
+Doing: 
+• Implementing the Semantic Layer
+Semantic Layer Implementation (VLM: rational part)
+Goal: 
+• It is the robot’s understanding system, it gives 
+meaning to what it sees & hears ( 1) Scene 
+Understanding, 2) Reasoning & Foresight, & 3) Task 
+Planning).
+1) Converts raw sensory data (RGB-D, Text)  into a 
+structured, symbolic representation (objects, 
+relations, affordances).
+2) Uses these symbols to perform logical, language-
+like reasoning about subgoals, constraints, and 
+safety. 
+3) Generates actionable plans in a structured format 
+that lower-level systems can execute (JSON 
+subgoals[]).
+• Procedural uses subgoals + e_subgoal for execution; 
+Episodic logs full PlanPacket for recall & novelty 
+tracking.
+Inputs: Vision (RGB-D), 
+Language 
+(Text/Speech→Text), &  
+Robot State (Pose, Joint 
+Angles).
+• Nodes: object ID, class, pose_SE3, size, 
+affordances[], attributes (color, material)
+• Edges: (on, in, near, left_of, reachable, 
+supports)
+• Metadata: confidence, scene_id, 
+timestamp
+e_subgoal = f_VLM(plan_text, image_tokens)
+numeric embedding
+symbolic plan (JSON)
+Unified Output (PlanPacket):
+{ subgoals[], constraints[], e_subgoal[], rationale, timestamp }
+
+No Title Yet!
+21 Oct 2025
+Cancelled
+From Unskilled to Skilled Level by
+Implementing a system inspired by the human brain's 
+conscious and subconscious minds
+How can a humanoid have both of systems (conscious & sub conscious) at the same time? 
+How can it plan a long-term goal while reacting to split-second changes in its 
+environment?
+
+No Title Yet!
+28 Oct 2025
+From Unskilled to Skilled Level by
+Implementing a system inspired by the human brain's 
+conscious and subconscious minds
+How can a humanoid have both of systems (conscious & sub conscious) at the same time? 
+How can it plan a long-term goal while reacting to split-second changes in its 
+environment?
+Progress Update
+Done: 
+• Implementing the Semantic Layer
+Doing: (EOW)
+• Implementing the Episodic Layer  
+Semantic Layer Implementation (VLM: rational part)
+The layer do: 
+• Extracts knowledge, facts, relationships, and high-level plans (as symbols and constraints) from images and 
+language.
+• Performs explicit reasoning (planning, constraint satisfaction, verification, self-correction).
+• Represents all thoughts as JSON/text for transparency, debugging, and logging.
+• Never tries impossible actions (doesn't hallucinate non-existent objects; logs failures).
+• Is designed for logs to be used in episodic memory.
+Subgoal Encoder: “translating” symbols to 
+continuous control
+• This action converts the slow, symbolic JSON into the fast, 
+continuous vector that conditions the low-level policy (DiT/System 
+1).
+Task File/Component Detail
+Implement Encoder subgoal_encoder.py
+Implement the full 
+$\mathbf{e}_{\text{subgoal}}$ 
+generation: One-Hot Action 
+$\oplus$ Geometric Features 
+$\oplus$ Semantic 
+Hashing/Projection.
+Integrate Dispatch vlm_semantic_tools.py
+In the main execution loop (after if 
+final_plan:), import encode_subgoal 
+and use the first valid subgoal 
+(final_plan['subgoals'][0]) to 
+generate the 
+$\mathbf{e}_{\text{subgoal}}$ 
+vector.
+Verification
+Print the vector's shape ([256]) and 
+confirm the values are non-zero and 
+L2-normalized.
+Subgoal Encoder
+Design:
+• Takes a verified subgoal (JSON) and produces a fixed-size, L2-
+normalized 256-D vector.
+Vector is a concatenation of:
+• One-hot action (grasp, fold, place, etc.)
+• Normalized geometric features (e.g., centroid, size if available)
+• Semantic hashes of labels, goal keywords, etc.
+• Optionally, hazard bits.
+Episodic Layer Implementation
+• Actions, conditions, experiences saved to be used in episodic 
+memory
+Episodic memory should log the entire tuple:
+• Scene image/graph (what did I see?)
+• Plan (what steps did I think would achieve the goal?)
+• Goal (what was I trying to do?)
+• Verification/critiques (what failed or succeeded, why?)
+• Outcome (did it succeed? What was the result?)
+• Optionally, raw sensory and low-level action traces (still not yet)
+Episodic Memory Integration 
+(Paleomammalian)
+• The Paleomammalian Brain is responsible for adaptive behavior 
+through experience (emotion/error feedback). This maps directly 
+to using Episodic Memory (logs of past failures/successes) to 
+refine the conscious plan.
+Task Component Detail & MacLean's Link
+Set up Database FAISS / ChromaDB (Vector Store)
+Choose a local vector database 
+library. Create a database 
+structure to store the "Plan 
+Packets" (your 
+semantic_log_*.json contents: 
+Goal, Scene, Plan, Outcome).
+Add Outcome Metric Execution Log
+Modify the main loop to simulate 
+the outcome. For now, assume a 
+simulated metric: outcome = 
+"SUCCESS" if plan is valid, outcome 
+= "FAILURE" if planning retries fail.
+RAG Integration Episodic Feedback Loop
+Implement a function: 
+query_episodic_memory(goal, 
+failure_critique). This function 
+uses RAG (Vector Search) to 
+retrieve the CoT Reasoning from a 
+past, similar failure and returns it 
+as a retrieved text snippet.
+Plug the output of 
+query_episodic_memory into the 
+VLM prompt's critique argument 
+in plan_task. This gives the 
+Neomammalian layer context of its 
+past failures ("I remember trying 
+to grasp the cloth like that, and I 
+failed because...") before it 
+generates the new plan.
+Episodic Memory- Database & Retrieval
+• A. Set up vector database:
+For quick prototype, use FAISS or ChromaDB.
+Store:
+• Goal (text)
+• Scene (graph or vectorized)
+• Plan (JSON)
+• Critiques, attempts, outcomes
+• e_subgoal vector
+• (optionally) raw image, sensory/action traces
+Episodic Memory- Database & Retrieval
+• B. Log every episode (success and failure):
+• After every plan attempt, save to episodic DB/log:
+episode_record = {
+    "timestamp": datetime.now().isoformat(),
+    "goal": goal,
+    "scene": scene_data,
+    "plan": plan_result,
+    "critique": critique,
+    "outcome": "SUCCESS" if plan_found else "FAILURE" ,
+    "e_subgoal": esubgoal.tolist() if plan_found else None,
+}
+# Save as JSON
+with open(os.path.join(log_dir, f"episodic_{attempt}.json"), "w") as f:
+    json.dump(episode_record, f, indent=2)
+Episodic Memory- Database & Retrieval
+• C. Query Episodic Memory for RAG Feedback:
+• build a simple vector search using FAISS/ChromaDB by 
+embedding the goal/critique text (using, e.g., 
+SentenceTransformers or OpenAI embeddings).
+Then in main planning loop:
+• If a plan fails, call query_episodic_memory(goal, critique, 
+episodic_db)
+• Add the retrieved experience into the VLM's prompt as extra 
+context for replanning
+
+No Title Yet!
+04 Nov 2025
+From Unskilled to Skilled Level by
+Implementing a system inspired by the human brain's 
+conscious and subconscious minds
+How can a humanoid have both of systems (conscious & sub conscious) at the same time? 
+How can it plan a long-term goal while reacting to split-second changes in its 
+environment?
+Progress Update
+Done: 
+• Implementing the Procedural Layer
+Doing: (EOW)
+• Integrating it with the rest if the layers
+
+
+No Title Yet!
+11 Nov 2025
+From Unskilled to Skilled Level by
+Implementing a system inspired by the human brain's 
+conscious and subconscious minds
+How can a humanoid have both of systems (conscious & sub conscious) at the same time? 
+How can it plan a long-term goal while reacting to split-second changes in its 
+environment?
+Progress Update
+Done: 
+• Implemented Semantic Layer (LLaVA 1.5 → Scene Graph → Plan JSON)
+• Built Episodic Memory (FAISS vector DB + episode logger)
+• Integrated Procedural Diffusion Policy module (action  vector -> task execution)
+• Validated data flow Semantic → Episodic → Procedural in terminal tests
+Doing: 
+• Integrating Layers in Custom MuJoCo Env
+• Testing the Full Architecture in Sim
+Semantic Layer (Reasoning, Scene Understanding, Symbolic 
+Planning)
+Model: llava-hf/llava-1.5-7b-hf 
+Inputs: RGB-D image + task text
+Outputs: Scene graph, reasoning trace, symbolic plan, subgoal 
+embeddings.
+Pipeline Logic (perception → understanding → reasoning → goal decomposition → plan)
+1. Perception: capture RGB-D frame → object & affordance detection.
+2. Scene Graph Construction: extract objects, relations, constraints → 
+scene_graph.json.
+3. Reasoning & Planning: language reasoning over scene + goal text to generate 
+subgoals → plan.json.
+4. Embedding Generation: encode each subgoal into 256-D numeric vector 
+(e_subgoal) for downstream episodic/procedural learning.
+Semantic Layer Implementation (VLM: rational part)
+Goal: 
+• It is the robot’s understanding system, it gives 
+meaning to what it sees & hears ( 1) Scene 
+Understanding, 2) Reasoning & Foresight, & 3) Task 
+Planning).
+1) Converts raw sensory data (RGB-D, Text)  into a 
+structured, symbolic representation (objects, 
+relations, affordances).
+2) Uses these symbols to perform logical, language-
+like reasoning about subgoals, constraints, and 
+safety. 
+3) Generates actionable plans in a structured format 
+that lower-level systems can execute (JSON 
+subgoals[]).
+• Procedural uses subgoals + e_subgoal for execution; 
+Episodic logs full PlanPacket for recall & novelty 
+tracking.
+Inputs: Vision (RGB-D), 
+Language 
+(Text/Speech→Text), &  
+Robot State (Pose, Joint 
+Angles).
+• Nodes: object ID, class, pose_SE3, size, 
+affordances[], attributes (color, material)
+• Edges: (on, in, near, left_of, reachable, 
+supports)
+• Metadata: confidence, scene_id, 
+timestamp
+e_subgoal = f_VLM(plan_text, image_tokens)
+numeric embedding
+symbolic plan (JSON)
+Unified Output (PlanPacket):
+{ subgoals[], constraints[], e_subgoal[], rationale, timestamp }
+Semantic Layer (Reasoning, Scene Understanding, Symbolic 
+Planning)
+Inputs
+• Goal text: “Fold the sweater neatly on the table. ”
+• Real robot view (Image):
+
+Semantic Layer (Reasoning, Scene Understanding, Symbolic 
+Planning)
+Outputs (automatically generated)
+• Scene Graph (scene_graph.json)
+
+Semantic Layer (Reasoning, Scene Understanding, Symbolic 
+Planning)
+Outputs (automatically generated)
+• Reasoning Chain (reasoning_trace.json)
+
+Semantic Layer (Reasoning, Scene Understanding, Symbolic 
+Planning)
+Outputs (automatically generated)
+• Plan (plan.json)
+
+Episodic Layer (Experience Memory & Retrieval)
+Model: all-MiniLM-L6-v2 (Sentence-BERT) for semantic embedding.
+Pipeline Logic:
+1. Encode → Convert semantic plan + scene graph into numerical embeddings (256-
+D per subgoal) (episodic_*.json)
+2. Store → Append a structured episode record → {goal, scene, plan, 
+outcome, embeddings} to the episodic memory database. 
+(./logs/episodic_memory)
+3. Retrieve → Query FAISS vector index using the current goal embedding. In-memory 
+top-k similar episodes ranked by score. 
+4. Replay → Return the most similar successful episode (similarity ≥ 0.9 → activates 
+the subconscious pathway and provides prior plan + action traces to the 
+Procedural layer.
+Procedural Layer (Skill Execution)
+Model: Fine-tuned Diffusion Policy (skill-specific transformer for low-latency 
+actions).
+Input: Subgoal embedding (256-D) + current robot state.
+Output: Continuous action tensor → joint velocities / positions (16 × 32 per 
+episode).
+Loop rate: ≈ 50 Hz (reactive control).
+Pipeline Logic:
+1. Receive verified subgoal from Episodic layer.
+2. Map embedding → motor action sequence via Diffusion Policy.
+3. Execute and monitor.
+4. Log trajectory & success → feedback to Episodic memory.
+Integration Test (All Layers Together)
+• Case 1: New / Unseen Task
+• Case 2 : Familiar / Known Task
+• Case 3 : Goal Not Match Scene / Missing Objects
+
+NEXT: MuJoCo Environment Setup
+• Custom scene loaded with camera stream.
+
+No Title Yet!
+11 Nov 2025
+From Unskilled to Skilled Level by
+Implementing a system inspired by the human brain's 
+conscious and subconscious minds
+How can a humanoid have both of systems (conscious & sub conscious) at the same time? 
+How can it plan a long-term goal while reacting to split-second changes in its 
+environment?
+
+
+Transform Robot Actions from 
+Conscious to Subconscious
+Initial Title 
+09 Sep 2025
+Research Questions
+1. How can a humanoid robot combine slow, high-level reasoning 
+with fast, low-level motor control in a single system?
+2. How can deliberate actions be transformed into fast, automatic 
+skills?
+3. How can semantic, episodic, and procedural memory operate 
+together continuously, not sequentially?
+Full System Overview
+
+Semantic Reasoning Layer
+
+Episodic Memory Layer
+
+Procedural (G1 Whole-Body Loco-manipulation 
+Policy) Layer 
+
+Progress Update
+Done: 
+• Semantic reasoning layer built from scratch using Qwen2-VL
+(vision → reasoning → subgoals → embeddings)
+• Episodic memory implemented with:
+    - experience logging (RGB, subgoals, outcomes)
+    - novelty detection and recall
+• Unitree G1 whole-body loco-manipulation policy:
+    - trained, fine-tuned, and integrated as a procedural executor
+• End-to-end closed-loop execution working in simulation
+(semantic monitoring + procedural execution)
+Progress Update
+Doing (In progress): 
+• Quantitative evaluation:
+    - success rate
+    - execution time
+    - motion smoothness (jerk)
+• Ablation studies:
+    - without episodic memory
+    - without semantic monitoring
+• Clean write-up
+Results
+Failure Modes of Pure Procedural Execution
+• Robot attempts grasp
+• Grasp is weak / failed → apple slips
+• Procedural policy continues executing the remaining subgoals
+    - walks left
+    - reaches toward plate
+• Robot does not stop, because:
+    - no success monitoring at the procedural level
+    - no semantic interruption
+• Result: robot places nothing near the plate
+Instruction: pick up the apple, walk left and place 
+the apple on the plate. (robocasa_env.py:232)
+
+Results
+Successful Modes of Hierarchical Control
+• Robot ties to grasp
+• Semantic monitor checks:
+     - “Is apple in gripper?”
+     - via vision / state
+• If false → interrupt
+• After release, semantic layer checks:
+    - “Is apple inside plate region?”
+• If only touching edge:
+    - adject or nudge apple
+Instruction: pick up the apple, walk left and place 
+the apple on the plate. (robocasa_env.py:232)
+
+Instruction: pick up the apple, walk left and place 
+the apple on the plate. (robocasa_env.py:232)
+
+Instruction: pick up the apple, walk left and place 
+the apple on the plate. (robocasa_env.py:232)
+
+Instruction: pick up the apple, walk left and place 
+the apple on the plate. (robocasa_env.py:232)
+
+RandRobotPose: a robustness variant of a real task. Test 
+task completeness starting from different 
+positions/orientations.
+VisualReach: purely a visual debug/placeholder 
+env (no real task).

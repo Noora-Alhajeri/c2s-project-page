@@ -1,0 +1,26 @@
+1: No Title Yet!
+1: 02 Sep 2025
+4: Categories Date Source Title
+4: Foundation Models & Generalist Policies Sep 2024 https://openvla.github.io/ OpenVLA: An Open-Source Vision-Language-Action Model
+5: Categories Date Source Title
+5: Data & Benchmarks Sep 2021 https://robomimic.github.io/ What Matters in Learning from Offline Human Demonstrations for Robot Manipulation
+6: Categories Date Source Title
+6: Architectures Sep 2022
+11: No Title Yet!
+11: 09 Sep 2025
+13: Initial Title
+13: 09 Sep 2025
+24: No Title Yet!
+24: 16 Sep 2025
+41: model that handles perception, reasoning and action generation without separate diffusion.
+44: 1. During Execution (Monitor): A separate, high-priority "Observer
+46: No Title Yet!
+55: No Title Yet!
+60: No Title Yet!
+65: No Title Yet!
+68: No Title Yet!
+80: No Title Yet!
+85: No Title Yet!
+99: No Title Yet!
+103: Initial Title
+103: 09 Sep 2025

@@ -1,0 +1,11 @@
+Progress Update
+Done: 
+• Semantic reasoning layer built from scratch using Qwen2-VL
+(vision → reasoning → subgoals → embeddings)
+• Episodic memory implemented with:
+    - experience logging (RGB, subgoals, outcomes)
+    - novelty detection and recall
+• Unitree G1 whole-body loco-manipulation policy:
+    - trained, fine-tuned, and integrated as a procedural executor
+• End-to-end closed-loop execution working in simulation
+(semantic monitoring + procedural execution)
